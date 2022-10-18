@@ -30,7 +30,7 @@ public class EmaitzakIpiniINTTest {
 
 	@Mock
 	TestDataAccess dataAccess;
-
+ 
 	@InjectMocks
 	TestFacadeImplementation sut;
 	
