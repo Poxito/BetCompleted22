@@ -165,7 +165,7 @@ public class Registered extends User implements Serializable{
 		for(KirolEstatistikak ke: sportEstatistikak) {
 			if(ke.getSport().equals(sp)) {
 				return ke;
-			}
+			} 
 		}
 		return null;
 	}
