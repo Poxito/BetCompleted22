@@ -1,1 +1,3 @@
-domain.KirolEstatistikak#getSport()LSport;
+gui.MugimenduakBistaratuGUI#instance-init#
+javax.swing.DefaultListModel#instance-init#
+javax.swing.DefaultListModel#<init>()V

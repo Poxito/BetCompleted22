@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#findApustua(LUser;)Ljava/util/List;
+businessLogic.BLFacadeImplementation#saldoaBistaratu(LUser;)Ljava/lang/String;

@@ -1,1 +1,3 @@
-gui.PopularGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+gui.GertaeraInfo#instance-init#
+javax.swing.DefaultListModel#instance-init#
+javax.swing.DefaultListModel#<init>()V

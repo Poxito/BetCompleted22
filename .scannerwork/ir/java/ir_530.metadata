@@ -1,1 +1,1 @@
-domain.Apustua#getApostuaNumber()Ljava/lang/Integer;
+domain.Apustua#getEgoera()Ljava/lang/String;

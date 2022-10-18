@@ -1,1 +1,1 @@
-configuration.ConfigXML#getDatabasePort()I
+configuration.ConfigXML#isDatabaseLocal()Z

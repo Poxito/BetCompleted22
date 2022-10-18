@@ -1,1 +1,1 @@
-domain.Elkarrizketa#setElkarrizketaNumber(Ljava/lang/Integer;)V
+domain.Elkarrizketa#setMessages(Ljava/util/Vector;)V

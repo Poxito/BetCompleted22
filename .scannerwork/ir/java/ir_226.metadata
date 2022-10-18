@@ -1,3 +1,1 @@
-domain.Elkarrizketa#<init>(Ljava/lang/String;Ldomain/User;Ldomain/User;)V
-java.util.Date#<init>()V
-java.util.Date#instance-init#
+domain.Elkarrizketa#setData(Ljava/util/Date;)V

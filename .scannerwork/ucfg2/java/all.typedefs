@@ -951,13 +951,13 @@ set(IIIII)java.util.Calendar#set(IIIII)V4
 )writeObject(Ljava/io/ObjectOutputStream;)=java.util.Calendar#writeObject(Ljava/io/ObjectOutputStream;)V@
 toStandaloneStyle(I)(java.util.Calendar#toStandaloneStyle(I)I&
 set(II)java.util.Calendar#set(II)Vó
-6createCalendar(Ljava/util/TimeZone;Ljava/util/Locale;)]java.util.Calendar#createCalendar(Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar;î
+6createCalendar(Ljava/util/TimeZone;Ljava/util/Locale;)]java.util.Calendar#createCalendar(Ljava/util/TimeZone;Ljava/util/Locale;)Ljava/util/Calendar;ó
 domain.Teamjava.lang.Objectjava.io.Serializable!
 <init>()domain.Team#<init>()VE
 <init>(Ljava/lang/String;)'domain.Team#<init>(Ljava/lang/String;)VI
-setIzena(Ljava/lang/String;))domain.Team#setIzena(Ljava/lang/String;)V6
+setIzena(Ljava/lang/String;))domain.Team#setIzena(Ljava/lang/String;)V9
 
-getUsers()(domain.Team#getUsers()Ljava/util/Vector;8
+getUsers()+domain.Team#getUsers()Ljava/util/ArrayList;8
 getEvents())domain.Team#getEvents()Ljava/util/Vector;6
 
 getIzena()(domain.Team#getIzena()Ljava/lang/String;¯;
@@ -2599,11 +2599,7 @@ setSize(I)(javax.swing.DefaultListModel#setSize(I)Vc
 set(ILjava/lang/Object;)Gjavax.swing.DefaultListModel#set(ILjava/lang/Object;)Ljava/lang/Object;6
 
 capacity()(javax.swing.DefaultListModel#capacity()I.
-size()$javax.swing.DefaultListModel#size()IŒ
-test.dataAccess.TestDataAccessjava.lang.Object4
-<init>()(test.dataAccess.TestDataAccess#<init>()V0
-open()&test.dataAccess.TestDataAccess#open()V2
-close()'test.dataAccess.TestDataAccess#close()Vç
+size()$javax.swing.DefaultListModel#size()Iç
 domain.Questionjava.lang.Objectjava.io.Serializablea
 &setQuestionNumber(Ljava/lang/Integer;)7domain.Question#setQuestionNumber(Ljava/lang/Integer;)V<
 getResult()-domain.Question#getResult()Ljava/lang/String;3
@@ -2936,11 +2932,7 @@ QgetStringBounds(Ljava/text/CharacterIterator;IILjava/awt/font/FontRenderContext
 -actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.RegisteredGUI$5#actionPerformed(Ljava/awt/event/ActionEvent;)VÊ
 gui.RegisteredGUI$6java.awt.event.ActionListenerjava.lang.Object)
 <init>()gui.RegisteredGUI$6#<init>()Vs
--actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.RegisteredGUI$6#actionPerformed(Ljava/awt/event/ActionEvent;)V…
-gui.MugimenduakBistaratuGUIjavax.swing.JFrameï
-:jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Wgui.MugimenduakBistaratuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V1
-jbInit()%gui.MugimenduakBistaratuGUI#jbInit()VK
-<init>(Ldomain/User;)2gui.MugimenduakBistaratuGUI#<init>(Ldomain/User;)VÊ
+-actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.RegisteredGUI$6#actionPerformed(Ljava/awt/event/ActionEvent;)VÊ
 gui.RegisteredGUI$7java.awt.event.ActionListenerjava.lang.Object)
 <init>()gui.RegisteredGUI$7#<init>()Vs
 -actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.RegisteredGUI$7#actionPerformed(Ljava/awt/event/ActionEvent;)VÊ
@@ -3334,10 +3326,29 @@ toString()6javax.xml.namespace.QName#toString()Ljava/lang/String;R
 getLocalPart():javax.xml.namespace.QName#getLocalPart()Ljava/lang/String;w
 ,<init>(Ljava/lang/String;Ljava/lang/String;)Gjavax.xml.namespace.QName#<init>(Ljava/lang/String;Ljava/lang/String;)V3
 
-hashCode()%javax.xml.namespace.QName#hashCode()IÑ
+hashCode()%javax.xml.namespace.QName#hashCode()I¸
+gui.MugimenduakBistaratuGUIjavax.swing.JFrameï
+:jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)Wgui.MugimenduakBistaratuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V1
+jbInit()%gui.MugimenduakBistaratuGUI#jbInit()VÑ
 gui.MugimenduakBistaratuGUI$1java.awt.event.ActionListenerjava.lang.Object3
 <init>()'gui.MugimenduakBistaratuGUI$1#<init>()V}
--actionPerformed(Ljava/awt/event/ActionEvent;)Lgui.MugimenduakBistaratuGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)Vø"
+-actionPerformed(Ljava/awt/event/ActionEvent;)Lgui.MugimenduakBistaratuGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)VÓ
+domain.Transactionjava.lang.Objectjava.io.SerializableV
+getTransactionNumber()<domain.Transaction#getTransactionNumber()Ljava/lang/Integer;=
+
+getDirua()/domain.Transaction#getDirua()Ljava/lang/Double;(
+<init>()domain.Transaction#<init>()VN
+setMota(Ljava/lang/String;)/domain.Transaction#setMota(Ljava/lang/String;)V=
+
+toString()/domain.Transaction#toString()Ljava/lang/String;A
+getErabiltzailea()+domain.Transaction#getErabiltzailea()LUser;9
+	getData(),domain.Transaction#getData()Ljava/util/Date;j
+)setTransactionNumber(Ljava/lang/Integer;)=domain.Transaction#setTransactionNumber(Ljava/lang/Integer;)V∂
+O<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)cdomain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)Vb
+%setErabiltzailea(Ldomain/Registered;)9domain.Transaction#setErabiltzailea(Ldomain/Registered;)VP
+setDirua(Ljava/lang/Double;)0domain.Transaction#setDirua(Ljava/lang/Double;)VJ
+setData(Ljava/util/Date;)-domain.Transaction#setData(Ljava/util/Date;)V;
+	getMota().domain.Transaction#getMota()Ljava/lang/String;ø"
 java.awt.Dialogjava.awt.WindowI
 setShape(Ljava/awt/Shape;)+java.awt.Dialog#setShape(Ljava/awt/Shape;)V+
 doDispose()java.awt.Dialog#doDispose()V%
@@ -3732,7 +3743,7 @@ DgertaerakSortu(Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;)jbusinessL
 -actionPerformed(Ljava/awt/event/ActionEvent;)=gui.AdminGUI$9#actionPerformed(Ljava/awt/event/ActionEvent;)V⁄
 gui.AdminGUI$10java.awt.event.ActionListenerjava.lang.Object%
 <init>()gui.AdminGUI$10#<init>()Vo
--actionPerformed(Ljava/awt/event/ActionEvent;)>gui.AdminGUI$10#actionPerformed(Ljava/awt/event/ActionEvent;)V≤
+-actionPerformed(Ljava/awt/event/ActionEvent;)>gui.AdminGUI$10#actionPerformed(Ljava/awt/event/ActionEvent;)V⁄
 domain.Sportjava.lang.Objectjava.io.SerializableN
 getApustuKantitatea()5domain.Sport#getApustuKantitatea()Ljava/lang/Integer;F
 equals(Ljava/lang/Object;)(domain.Sport#equals(Ljava/lang/Object;)ZO
@@ -3744,9 +3755,11 @@ toString())domain.Sport#toString()Ljava/lang/String;b
 <init>(Ljava/lang/String;)(domain.Sport#<init>(Ljava/lang/String;)VJ
 setIzena(Ljava/lang/String;)*domain.Sport#setIzena(Ljava/lang/String;)VH
 eguneratuApustuKantitatea())domain.Sport#eguneratuApustuKantitatea()V9
-getEvents()*domain.Sport#getEvents()Ljava/util/Vector;7
+getEvents()*domain.Sport#getEvents()Ljava/util/Vector;&
 
-getIzena())domain.Sport#getIzena()Ljava/lang/String;Û
+hashCode()domain.Sport#hashCode()I7
+
+getIzena())domain.Sport#getIzena()Ljava/lang/String;õ
 domain.Quotejava.lang.Objectjava.io.SerializableD
 getQuoteNumber()0domain.Quote#getQuoteNumber()Ljava/lang/Integer;F
 equals(Ljava/lang/Object;)(domain.Quote#equals(Ljava/lang/Object;)Z7
@@ -3761,7 +3774,9 @@ toString())domain.Quote#toString()Ljava/lang/String;j
 ,<init>(Ljava/lang/Double;Ljava/lang/String;):domain.Quote#<init>(Ljava/lang/Double;Ljava/lang/String;)V5
 getQuestion()$domain.Quote#getQuestion()LQuestion;X
 #setQuoteNumber(Ljava/lang/Integer;)1domain.Quote#setQuoteNumber(Ljava/lang/Integer;)VP
-setForecast(Ljava/lang/String;)-domain.Quote#setForecast(Ljava/lang/String;)Vı
+setForecast(Ljava/lang/String;)-domain.Quote#setForecast(Ljava/lang/String;)V&
+
+hashCode()domain.Quote#hashCode()Iı
 gui.PopularGUI$1java.lang.Object'javax.swing.event.ListSelectionListener~
 4valueChanged(Ljavax/swing/event/ListSelectionEvent;)Fgui.PopularGUI$1#valueChanged(Ljavax/swing/event/ListSelectionEvent;)V&
 <init>()gui.PopularGUI$1#<init>()Vı
@@ -3802,13 +3817,7 @@ toString())domain.Quote#toString()Ljava/lang/String;j
 -actionPerformed(Ljava/awt/event/ActionEvent;)Egui.EmaitzakIpiniGUI$4#actionPerformed(Ljava/awt/event/ActionEvent;)V˘
 gui.EmaitzakIpiniGUI$5!java.beans.PropertyChangeListenerjava.lang.Object,
 <init>() gui.EmaitzakIpiniGUI$5#<init>()V|
-0propertyChange(Ljava/beans/PropertyChangeEvent;)Hgui.EmaitzakIpiniGUI$5#propertyChange(Ljava/beans/PropertyChangeEvent;)V 
-configuration.UtilDatejava.lang.Objectg
-lastDayMonth(Ljava/util/Date;)Econfiguration.UtilDate#lastDayMonth(Ljava/util/Date;)Ljava/util/Date;,
-<init>() configuration.UtilDate#<init>()Vi
-firstDayMonth(Ljava/util/Date;)Fconfiguration.UtilDate#firstDayMonth(Ljava/util/Date;)Ljava/util/Date;W
-trim(Ljava/util/Date;)=configuration.UtilDate#trim(Ljava/util/Date;)Ljava/util/Date;C
-newDate(III)3configuration.UtilDate#newDate(III)Ljava/util/Date;»
+0propertyChange(Ljava/beans/PropertyChangeEvent;)Hgui.EmaitzakIpiniGUI$5#propertyChange(Ljava/beans/PropertyChangeEvent;)V»
 exceptions.QuestionAlreadyExistjava.lang.Exception5
 <init>())exceptions.QuestionAlreadyExist#<init>()VY
 <init>(Ljava/lang/String;);exceptions.QuestionAlreadyExist#<init>(Ljava/lang/String;)V≈
@@ -3845,23 +3854,7 @@ $updateDiruKontua(Ljava/lang/Double;)7domain.Registered#updateDiruKontua(Ljava/
 getDiruLimitea()4domain.Registered#getDiruLimitea()Ljava/lang/Double;·
 domain.AdminUserjava.io.Serializableê
 ?<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)Mdomain.Admin#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V"
-<init>()domain.Admin#<init>()VÓ
-domain.Transactionjava.lang.Objectjava.io.SerializableV
-getTransactionNumber()<domain.Transaction#getTransactionNumber()Ljava/lang/Integer;=
-
-getDirua()/domain.Transaction#getDirua()Ljava/lang/Double;(
-<init>()domain.Transaction#<init>()VN
-setMota(Ljava/lang/String;)/domain.Transaction#setMota(Ljava/lang/String;)V=
-
-toString()/domain.Transaction#toString()Ljava/lang/String;A
-getErabiltzailea()+domain.Transaction#getErabiltzailea()LUser;9
-	getData(),domain.Transaction#getData()Ljava/util/Date;j
-)setTransactionNumber(Ljava/lang/Integer;)=domain.Transaction#setTransactionNumber(Ljava/lang/Integer;)V∂
-O<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)cdomain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)Vb
-%setErabiltzailea(Ldomain/Registered;)9domain.Transaction#setErabiltzailea(Ldomain/Registered;)VP
-setDirua(Ljava/lang/Double;)0domain.Transaction#setDirua(Ljava/lang/Double;)VJ
-setData(Ljava/util/Date;)-domain.Transaction#setData(Ljava/util/Date;)V;
-	getMota().domain.Transaction#getMota()Ljava/lang/String;Ô
+<init>()domain.Admin#<init>()VÔ
 gui.FindQuestionsGUI$1java.awt.event.ActionListenerjava.lang.Object,
 <init>() gui.FindQuestionsGUI$1#<init>()Vv
 -actionPerformed(Ljava/awt/event/ActionEvent;)Egui.FindQuestionsGUI$1#actionPerformed(Ljava/awt/event/ActionEvent;)V˘
@@ -4241,7 +4234,13 @@ toString(),java.lang.Float#toString()Ljava/lang/String;'
 doubleValue()java.lang.Float#doubleValue()D/
 isInfinite(F)java.lang.Float#isInfinite(F)Z+
 isFinite(F)java.lang.Float#isFinite(F)Z<
-toString(F)-java.lang.Float#toString(F)Ljava/lang/String;ı
+toString(F)-java.lang.Float#toString(F)Ljava/lang/String; 
+configuration.UtilDatejava.lang.Objectg
+lastDayMonth(Ljava/util/Date;)Econfiguration.UtilDate#lastDayMonth(Ljava/util/Date;)Ljava/util/Date;,
+<init>() configuration.UtilDate#<init>()Vi
+firstDayMonth(Ljava/util/Date;)Fconfiguration.UtilDate#firstDayMonth(Ljava/util/Date;)Ljava/util/Date;W
+trim(Ljava/util/Date;)=configuration.UtilDate#trim(Ljava/util/Date;)Ljava/util/Date;C
+newDate(III)3configuration.UtilDate#newDate(III)Ljava/util/Date;ı
 java.util.TimeZonejava.lang.Cloneablejava.lang.Objectjava.io.SerializableD
 observesDaylightTime()*java.util.TimeZone#observesDaylightTime()Zw
 'getSystemTimeZoneID(Ljava/lang/String;)Ljava.util.TimeZone#getSystemTimeZoneID(Ljava/lang/String;)Ljava/lang/String;6
@@ -4409,7 +4408,7 @@ toString()9domain.ElkarrizketaContainer#toString()Ljava/lang/String;K
 gui.DiruaSartuGUI$2java.awt.event.ActionListenerjava.lang.Object)
 <init>()gui.DiruaSartuGUI$2#<init>()Vs
 -actionPerformed(Ljava/awt/event/ActionEvent;)Bgui.DiruaSartuGUI$2#actionPerformed(Ljava/awt/event/ActionEvent;)VI
-domain.MezuakRendererjavax.swing.ListCellRendererjavax.swing.JLabel÷
+domain.MezuakRendererjavax.swing.ListCellRendererjavax.swing.JLabelÄ
 domain.Apustuajava.lang.Objectjava.io.SerializableH
 equals(Ljava/lang/Object;)*domain.Apustua#equals(Ljava/lang/Object;)ZJ
 getApostuaNumber()4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;$
@@ -4418,7 +4417,9 @@ toString()9domain.ElkarrizketaContainer#toString()Ljava/lang/String;K
 getApustuAnitza().domain.Apustua#getApustuAnitza()LApustuAnitza;^
 %setApostuaNumber(Ljava/lang/Integer;)5domain.Apustua#setApostuaNumber(Ljava/lang/Integer;)V.
 
-getKuota() domain.Apustua#getKuota()LQuote;;
+getKuota() domain.Apustua#getKuota()LQuote;(
+
+hashCode()domain.Apustua#hashCode()I;
 getEgoera(),domain.Apustua#getEgoera()Ljava/lang/String;©
 gui.MainUserGUIjavax.swing.JFrameJ
 getJContentPane()5gui.MainUserGUI#getJContentPane()Ljavax/swing/JPanel;B

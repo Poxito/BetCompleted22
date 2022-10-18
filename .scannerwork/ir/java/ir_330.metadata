@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#findTransakzioak(LUser;)Ljava/util/List;
+businessLogic.BLFacadeImplementation#rankingLortu()Ljava/util/List;

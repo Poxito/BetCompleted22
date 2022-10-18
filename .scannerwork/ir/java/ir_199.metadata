@@ -1,2 +1,1 @@
-domain.ApustuAnitza#instance-init#
-java.util.Vector#<init>()V
+domain.ApustuAnitza#setBalioa(Ljava/lang/Double;)V

@@ -1,1 +1,1 @@
-domain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V
+domain.Transaction#getErabiltzailea()LUser;

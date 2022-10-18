@@ -1,2 +1,1 @@
-gui.SarreraOntziaGUI#instance-init#
-javax.swing.DefaultListModel#<init>()V
+gui.SugerenciasGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

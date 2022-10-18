@@ -1,1 +1,2 @@
-businessLogic.BLFacadeImplementation#instance-init#
+businessLogic.BLFacadeImplementation#close()V
+null

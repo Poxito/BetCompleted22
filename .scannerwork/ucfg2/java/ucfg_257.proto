@@ -1,130 +1,137 @@
 
-:gui.AdminGUI#getJButtonEmaitzaIpini()Ljavax/swing/JButton;M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java› ›('"3*â
+5gui.AdminGUI#getBtnNewButton_2()Ljavax/swing/JButton;M
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaˇ ˇ(""3*Ò
 2M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaﬂ% ﬂ(3Ò
-Ó
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÅ  Å(.w
+u
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaﬂ% ﬂ(J
-%1java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
-java.util.ResourceBundle*
-	EtiquetasáÑ
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÅ9 Å(=
+%1java.lang.String"__id*
+""¸
+˘
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaﬂ% ﬂ(d
-%2java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÅ  Å(>
+%2java.util.ResourceBundle"Pjava.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;*"
+java.util.ResourceBundle*
+
+%1java.lang.StringÅ˛
+M
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÅ  Å(R
+%3java.lang.String"Hjava.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;* 
 
-%1java.util.ResourceBundle*
-EmaitzaIpini2getString(Ljava/lang/String;)Å
+%2java.util.ResourceBundle*
+
+Mezuak2getString(Ljava/lang/String;)Å
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaﬂ ﬂ($
-%3javax.swing.JButton"javax.swing.JButton¿
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÅ Å(
+%4javax.swing.JButton"javax.swing.JButton¿
 Ω
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaﬂ ﬂ(e
-%4"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÅ Å(S
+%5"/javax.swing.JButton#<init>(Ljava/lang/String;)V*
 
-%3javax.swing.JButton*
+%4javax.swing.JButton*
 
-%2java.lang.Stringû
-õ
+%3java.lang.Stringô
+ñ
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaﬂ ﬂ(e'
-gui.AdminGUI"
-jButtonEmaitzaIpini"__id*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÅ Å(S"
+gui.AdminGUI"
+btnNewButton_2"__id*
 
-%3javax.swing.JButtonû
-õ
+%4javax.swing.JButtonô
+ñ
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java‡ ‡(
-%5javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonEmaitzaIpiniu
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÇ Ç(
+%6javax.swing.JButton"__id*$*"
+gui.AdminGUI"
+btnNewButton_2u
 s
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java‡% ‡(4
-%6java.awt.Color"__id*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÇ  Ç(*
+%7java.awt.Color"__id*
 ""ÌÍ
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java‡ ‡(5
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÇ Ç(+
 
-%7void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
+%8void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
 
-%5javax.swing.JButton*
+%6javax.swing.JButton*
 
-%6java.awt.Color2setForeground(Ljava/awt/Color;)û
-õ
+%7java.awt.Color2setBackground(Ljava/awt/Color;)ô
+ñ
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java· ·(
-%8javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonEmaitzaIpiniu
-s
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÉ É(
+%9javax.swing.JButton"__id*$*"
+gui.AdminGUI"
+btnNewButton_2v
+t
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java·% ·(/
-%9java.awt.Color"__id*
-""ÓÎ
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÉ  É(/
+%10java.awt.Color"__id*
+""ÔÏ
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java· ·(0
-%10void"7javax.swing.JComponent#setBackground(Ljava/awt/Color;)V*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÉ É(0
+%11void"7javax.swing.JComponent#setForeground(Ljava/awt/Color;)V*
 
-%8javax.swing.JButton*
-
-%9java.awt.Color2setBackground(Ljava/awt/Color;)ü
-ú
+%9javax.swing.JButton*
+
+%10java.awt.Color2setForeground(Ljava/awt/Color;)ö
+ó
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java‚ ‚(
-%11javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonEmaitzaIpinixv
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÑ Ñ(
+%12javax.swing.JButton"__id*$*"
+gui.AdminGUI"
+btnNewButton_2xv
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java‚- ‚(;
-%12gui.AdminGUI$7"gui.AdminGUI$7é
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÑ( Ñ(6
+%13gui.AdminGUI$9"gui.AdminGUI$9é
 ã
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java‚) Á(
-%13"java.lang.Object#<init>()V*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÑ$ â(
+%14"java.lang.Object#<init>()V*
 
-%12gui.AdminGUI$7öó
+%13gui.AdminGUI$9öó
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.java‚ Á(
-%14void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÑ â(
+%15void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V*
 
-%11javax.swing.JButton*
+%12javax.swing.JButton*
 
-%12gui.AdminGUI$722addActionListener(Ljava/awt/event/ActionListener;)ü
-ú
+%13gui.AdminGUI$922addActionListener(Ljava/awt/event/ActionListener;)ö
+ó
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaË Ë(
-%15javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonEmaitzaIpiniÃ…
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaä ä(
+%16javax.swing.JButton"__id*$*"
+gui.AdminGUI"
+btnNewButton_2Õ 
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaË Ë(2
-%16void"#java.awt.Component#setBounds(IIII)V*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaä ä(-
+%17void"#java.awt.Component#setBounds(IIII)V*
 
-%15javax.swing.JButton*2
-*2|*2’*22setBounds(IIII)*
-1*˚
+%16javax.swing.JButton*2
+*2§*2’*22setBounds(IIII)*
+1*ˆ
 3M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaﬁ ﬁ(û
-õ
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÄ Ä(ô
+ñ
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaﬁ ﬁ(
-%0javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonEmaitzaIpini*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÄ Ä(
+%0javax.swing.JButton"__id*$*"
+gui.AdminGUI"
+btnNewButton_2*
 2
-1*„
+1*ﬁ
 1M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÍ	 Í(ü
-ú
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaå	 å(ö
+ó
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÍ	 Í(
-%17javax.swing.JButton"__id*)*'
-gui.AdminGUI"
-jButtonEmaitzaIpini"m
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaå	 å(
+%18javax.swing.JButton"__id*$*"
+gui.AdminGUI"
+btnNewButton_2"m
 M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaÍ Í(
+AC:/Users/aitor/git/BetCompleted22/src/main/java/gui/AdminGUI.javaå å(
 
-%17javax.swing.JButtonB
+%18javax.swing.JButtonB
 gui.AdminGUI

@@ -1,1 +1,1 @@
-domain.Quote#getApustuak()Ljava/util/Vector;
+domain.Quote#setForecast(Ljava/lang/String;)V

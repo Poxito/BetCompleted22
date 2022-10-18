@@ -1,1 +1,1 @@
-domain.ElkarrizketaContainer#<init>()V
+domain.ElkarrizketaContainer#getLehenHartzailea()LUser;

@@ -1,1 +1,1 @@
-domain.ApustuAnitza#setBalioa(Ljava/lang/Double;)V
+domain.ApustuAnitza#setApustuak(Ljava/util/Vector;)V

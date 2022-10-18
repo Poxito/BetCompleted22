@@ -1,1 +1,3 @@
-domain.Apustua#setApustuAnitza(LApustuAnitza;)V
+domain.Apustua#equals(Ljava/lang/Object;)Z
+java.lang.Object#getClass()Ljava/lang/Class;
+java.lang.Integer#equals(Ljava/lang/Object;)Z

@@ -1,16 +1,16 @@
 
-4domain.Apustua#getApostuaNumber()Ljava/lang/Integer;M
-CC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Apustua.java, ,( "1*Ù
+,domain.Apustua#getEgoera()Ljava/lang/String;M
+CC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Apustua.java< <("1*Ð
 1M
-CC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Apustua.java-	 -(˜
-•
+CC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Apustua.java=	 =(
+
 M
-CC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Apustua.java-	 -(
-%0java.lang.Integer"__id*%*#
-domain.Apustua"
-apustuaNumber"j
+CC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Apustua.java=	 =(
+%0java.lang.String"__id**
+domain.Apustua"
+egoera"i
 M
-CC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Apustua.java- -(
-
-%0java.lang.IntegerB
+CC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Apustua.java= =(
+
+%0java.lang.StringB
 domain.Apustua

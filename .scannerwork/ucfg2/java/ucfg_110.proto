@@ -1,16 +1,16 @@
 
-0domain.User#getElkarrizketak()Ljava/util/Vector;J
-@C:/Users/aitor/git/BetCompleted22/src/main/java/domain/User.java\ \(-"1*Ë
+(domain.User#toString()Ljava/lang/String;J
+@C:/Users/aitor/git/BetCompleted22/src/main/java/domain/User.javai i("1*Å
 1J
-@C:/Users/aitor/git/BetCompleted22/src/main/java/domain/User.java]	 ](‘
-Ž
+@C:/Users/aitor/git/BetCompleted22/src/main/java/domain/User.javaj	 j(‹
+ˆ
 J
-@C:/Users/aitor/git/BetCompleted22/src/main/java/domain/User.java]	 ](
-%0java.util.Vector"__id*"* 
-domain.User"
-elkarrizketak"f
+@C:/Users/aitor/git/BetCompleted22/src/main/java/domain/User.javaj	 j(
+%0java.lang.String"__id**
+domain.User"	
+usrname"f
 J
-@C:/Users/aitor/git/BetCompleted22/src/main/java/domain/User.java] ](
+@C:/Users/aitor/git/BetCompleted22/src/main/java/domain/User.javaj j(
 
-%0java.util.VectorB
+%0java.lang.StringB
 domain.User

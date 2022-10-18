@@ -1,62 +1,63 @@
 
-@gui.MainGUI#getRdbtnNewRadioButton_1()Ljavax/swing/JRadioButton;L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java§ §(."3*Ò
+@gui.MainGUI#getRdbtnNewRadioButton_2()Ljavax/swing/JRadioButton;L
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java´ ´(."3*Õ
 2L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java©, ©(5‹ˆ
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java¶, ¶(8‹ˆ
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java© ©(+
-%1javax.swing.JRadioButton"javax.swing.JRadioButton¼
-¹
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java¶ ¶(+
+%1javax.swing.JRadioButton"javax.swing.JRadioButton¿
+¼
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java© ©(6
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java¶ ¶(9
 %2"4javax.swing.JRadioButton#<init>(Ljava/lang/String;)V* 
 
-%1javax.swing.JRadioButton*	
-Euskara£
+%1javax.swing.JRadioButton*
+
+Castellano£
  
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java© ©(6(
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java¶ ¶(9(
 gui.MainGUI"
-rdbtnNewRadioButton_1"__id* 
+rdbtnNewRadioButton_2"__id* 
 
 %1javax.swing.JRadioButton£
  
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.javaª ª(
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java· ·(
 %3javax.swing.JRadioButton"__id***(
 gui.MainGUI"
-rdbtnNewRadioButton_1tr
+rdbtnNewRadioButton_2tr
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.javaª/ ª(=
-%4gui.MainGUI$5"gui.MainGUI$5Š
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java·/ ·(=
+%4gui.MainGUI$6"gui.MainGUI$6Š
 ‡
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.javaª+ ¯(
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java·+ ½(
 %5"java.lang.Object#<init>()V*
 
-%4gui.MainGUI$5š—
+%4gui.MainGUI$6š—
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.javaª ¯(
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java· ½(
 
 %6void"Njavax.swing.AbstractButton#addActionListener(Ljava/awt/event/ActionListener;)V* 
 
 %3javax.swing.JRadioButton*
 
-%4gui.MainGUI$522addActionListener(Ljava/awt/event/ActionListener;)˜
+%4gui.MainGUI$622addActionListener(Ljava/awt/event/ActionListener;)˜
 •
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java° °(
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java¾ ¾(
 %7javax.swing.ButtonGroup"__id* *
 gui.MainGUI"
 buttonGroup£
  
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java° °((
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java¾ ¾((
 %8javax.swing.JRadioButton"__id***(
 gui.MainGUI"
-rdbtnNewRadioButton_1ÿü
+rdbtnNewRadioButton_2ÿü
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java° °()
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java¾ ¾()
 
 %9void":javax.swing.ButtonGroup#add(Ljavax/swing/AbstractButton;)V*
 
@@ -65,25 +66,25 @@ L
 %8javax.swing.JRadioButton2!add(Ljavax/swing/AbstractButton;)*
 1*ÿ
 3L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java¨ ¨(£
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.javaµ µ(£
  
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java¨ ¨(
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.javaµ µ(
 %0javax.swing.JRadioButton"__id***(
 gui.MainGUI"
-rdbtnNewRadioButton_1*
+rdbtnNewRadioButton_2*
 2
 1*ë
 1L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java²	 ²(¤
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.javaÀ	 À(¤
 ¡
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java²	 ²(
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.javaÀ	 À(
 %10javax.swing.JRadioButton"__id***(
 gui.MainGUI"
-rdbtnNewRadioButton_1"q
+rdbtnNewRadioButton_2"q
 L
-@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.java² ²(!
+@C:/Users/aitor/git/BetCompleted22/src/main/java/gui/MainGUI.javaÀ À(!
 
 %10javax.swing.JRadioButtonB
 gui.MainGUI

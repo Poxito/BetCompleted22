@@ -1,1 +1,2 @@
-domain.TeamRenderer#instance-init#
+gui.AdminGUI#<init>(LUser;)V
+gui.AdminGUI#initialize()V

@@ -1,6 +1,1 @@
-gui.MainGUI#getPanel()Ljavax/swing/JPanel;
-gui.MainGUI#getRdbtnNewRadioButton_2()Ljavax/swing/JRadioButton;
-gui.MainGUI#getRdbtnNewRadioButton_1()Ljavax/swing/JRadioButton;
-javax.swing.JPanel#<init>()V
-gui.MainGUI#getRdbtnNewRadioButton()Ljavax/swing/JRadioButton;
-javax.swing.JPanel#instance-init#
+gui.TaldeaApostatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

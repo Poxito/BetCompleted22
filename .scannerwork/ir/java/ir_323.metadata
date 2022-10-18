@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#findQuestion(LEvent;)Ljava/util/Collection;
+businessLogic.BLFacadeImplementation#apustuaEzabatu(LUser;LApustuAnitza;)V

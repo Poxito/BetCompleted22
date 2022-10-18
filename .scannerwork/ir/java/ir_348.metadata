@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#findElkarrizketa(LElkarrizketa;)LElkarrizketa;
+businessLogic.BLFacadeImplementation#findSport(LEvent;)Ldomain/Sport;

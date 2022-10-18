@@ -1,1 +1,1 @@
-domain.Registered#setJarraitutakoLista(Ljava/util/Vector;)V
+domain.Registered#removeApustua(LApustuAnitza;)V

@@ -1,17 +1,16 @@
 
-9configuration.ConfigXML#getDbFilename()Ljava/lang/String;X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaž ž("1*þ
+?configuration.ConfigXML#getDataBaseOpenMode()Ljava/lang/String;X
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java¤ ¤(""1*„
 1X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaŸ	 Ÿ(¨
-¥
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java¥	 ¥(®
+«
 X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaŸ	 Ÿ(
-%0java.lang.String"__id*+*)
-configuration.ConfigXML"
-
-dbFilename"t
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java¥	 ¥(
+%0java.lang.String"__id*1*/
+configuration.ConfigXML"
+dataBaseOpenMode"t
 X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaŸ Ÿ(
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java¥ ¥(
 
 %0java.lang.StringB
 configuration.ConfigXML

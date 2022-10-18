@@ -1,1 +1,4 @@
-gui.MainUserGUI#getBusinessLogic()LBLFacade;
+gui.MainUserGUI#initialize()V
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+gui.MainUserGUI#getJContentPane()Ljavax/swing/JPanel;

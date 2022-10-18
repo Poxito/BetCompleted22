@@ -1,9 +1,16 @@
 
-*configuration.ConfigXML#getDatabasePort()IV
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java5 5("1*Ω
+3configuration.ConfigXML#getUser()Ljava/lang/String;V
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java9 9("1*Ú
 1V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java6	 6("`
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java:	 :(†
+ù
 V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java6 6(
-""B
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java:	 :(
+%0java.lang.String"__id*%*#
+configuration.ConfigXML"
+user"r
+V
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java: :(
+
+%0java.lang.StringB
 configuration.ConfigXML

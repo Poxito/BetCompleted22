@@ -1,1 +1,13 @@
-gui.KuotakIpiniGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+gui.RegisteredGUI#getJContentPane()Ljavax/swing/JPanel;
+gui.RegisteredGUI#getJButtonApustuaEgin()Ljavax/swing/JButton;
+gui.RegisteredGUI#getJButtonMugimenduakBistaratu()Ljavax/swing/JButton;
+gui.RegisteredGUI#getJButtonApustuaEzabatu()Ljavax/swing/JButton;
+javax.swing.JPanel#<init>()V
+gui.RegisteredGUI#getJButtonDesLogin()Ljavax/swing/JButton;
+gui.RegisteredGUI#getJButtonDiruaSartu()Ljavax/swing/JButton;
+gui.RegisteredGUI#getBtnDestacados()Ljavax/swing/JButton;
+gui.RegisteredGUI#getBtnRank()Ljavax/swing/JButton;
+gui.RegisteredGUI#getBoton3()Ljavax/swing/JButton;
+gui.RegisteredGUI#getBtnNewButton()Ljavax/swing/JButton;
+javax.swing.JPanel#instance-init#
+gui.RegisteredGUI#getLblNewLabel()Ljavax/swing/JLabel;

@@ -1,1 +1,1 @@
-domain.User#setBankAccount(Ljava/lang/Integer;)V
+domain.User#addJasotakoMezuak(LMessage;)V

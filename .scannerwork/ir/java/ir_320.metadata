@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#storeRegistered(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V
+businessLogic.BLFacadeImplementation#ApustuaEgin(LUser;Ljava/util/Vector;Ljava/lang/Double;Ljava/lang/Integer;)Z

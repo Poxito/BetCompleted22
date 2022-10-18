@@ -1,10 +1,1 @@
-gui.EmaitzakIpiniGUI#jbInit(Ljava/util/Vector;)V
-java.awt.Dimension#<init>(II)V
-java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
-java.awt.Dimension#instance-init#
-java.awt.Rectangle#instance-init#
-java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-java.awt.Rectangle#<init>(IIII)V
-gui.EmaitzakIpiniGUI#paintDaysWithEvents(LJCalendar;Ljava/util/Vector;)V
-javax.swing.JComboBox#instance-init#
-javax.swing.JComboBox#<init>()V
+exceptions.QuestionAlreadyExist#<init>()V

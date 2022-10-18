@@ -1,1 +1,1 @@
-domain.User#setJasotakoak(Ljava/util/Vector;)V
+domain.User#toString()Ljava/lang/String;

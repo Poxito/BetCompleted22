@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#saldoaBistaratu(LUser;)Ljava/lang/String;
+businessLogic.BLFacadeImplementation#gertaerakKopiatu(LEvent;Ljava/util/Date;)Z

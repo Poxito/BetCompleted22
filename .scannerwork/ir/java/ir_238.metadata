@@ -1,1 +1,1 @@
-domain.Elkarrizketa#setUser2(Ldomain/User;)V
+domain.Event#setQuestions(Ljava/util/Vector;)V

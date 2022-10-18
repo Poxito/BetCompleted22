@@ -1,1 +1,2 @@
-domain.ElkarrizketaContainer#toString()Ljava/lang/String;
+domain.MezuakRenderer#instance-init#
+gui.MainGUI#getBusinessLogic()LBLFacade;

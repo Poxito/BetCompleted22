@@ -1,1 +1,1 @@
-domain.ElkarrizketaContainer#setLehenHartzailea(LUser;)V
+domain.ElkarrizketaContainer#setElka(LElkarrizketa;)V

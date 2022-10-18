@@ -1,1 +1,1 @@
-domain.Message#setHartzailea(LUser;)V
+domain.Message#setElkarrizketa(LElkarrizketa;)V

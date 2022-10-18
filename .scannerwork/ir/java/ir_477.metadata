@@ -1,1 +1,1 @@
-domain.Transaction#setMota(Ljava/lang/String;)V
+gui.FindQuestionsGUI#jButton2_actionPerformed(Ljava/awt/event/ActionEvent;)V

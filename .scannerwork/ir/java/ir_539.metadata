@@ -1,1 +1,1 @@
-domain.Apustua#eguneratuApustuKant(LSport;)V
+gui.MainUserGUI#getBusinessLogic()LBLFacade;

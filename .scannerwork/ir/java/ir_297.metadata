@@ -1,1 +1,1 @@
-domain.Message#setElkarrizketa(LElkarrizketa;)V
+exceptions.EventFinished#<init>(Ljava/lang/String;)V

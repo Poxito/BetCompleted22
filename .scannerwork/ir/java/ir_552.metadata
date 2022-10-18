@@ -1,6 +1,1 @@
-gui.MainUserGUI#getPanel()Ljavax/swing/JPanel;
-javax.swing.JPanel#<init>()V
-gui.MainUserGUI#getRdbtnNewRadioButton_1()Ljavax/swing/JRadioButton;
-javax.swing.JPanel#instance-init#
-gui.MainUserGUI#getRdbtnNewRadioButton()Ljavax/swing/JRadioButton;
-gui.MainUserGUI#getRdbtnNewRadioButton_2()Ljavax/swing/JRadioButton;
+configuration.ConfigXML#instance-init#

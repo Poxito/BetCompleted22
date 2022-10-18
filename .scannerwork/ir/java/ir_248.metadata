@@ -1,1 +1,1 @@
-domain.Event#getEventNumber()Ljava/lang/Integer;
+domain.Event#getSport()LSport;

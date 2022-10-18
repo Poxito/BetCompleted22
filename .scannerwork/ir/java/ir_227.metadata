@@ -1,1 +1,1 @@
-domain.Elkarrizketa#getElkarrizketaNumber()Ljava/lang/Integer;
+domain.Elkarrizketa#getMessages()Ljava/util/Vector;

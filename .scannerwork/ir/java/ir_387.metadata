@@ -1,1 +1,1 @@
-domain.Sport#toString()Ljava/lang/String;
+domain.Quote#<init>(Ljava/lang/Double;Ljava/lang/String;)V

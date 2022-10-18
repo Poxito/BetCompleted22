@@ -1,1 +1,1 @@
-domain.ElkarrizketaContainer#setMessage(Ljava/util/Vector;)V
+domain.ElkarrizketaContainer#toString()Ljava/lang/String;

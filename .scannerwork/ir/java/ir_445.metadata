@@ -1,1 +1,1 @@
-domain.Registered#getJarraitutakoLista()Ljava/util/Vector;
+domain.Registered#addApustuAnitza(LApustuAnitza;)V

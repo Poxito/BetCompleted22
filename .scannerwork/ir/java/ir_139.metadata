@@ -1,1 +1,1 @@
-domain.Question#doesQuoteExist(Ljava/lang/String;)Z
+gui.RegisteredGUI#getBusinessLogic()LBLFacade;

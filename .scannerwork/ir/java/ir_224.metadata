@@ -1,2 +1,1 @@
-domain.Elkarrizketa#instance-init#
-java.util.Vector#<init>()V
+domain.Elkarrizketa#setTitulo(Ljava/lang/String;)V

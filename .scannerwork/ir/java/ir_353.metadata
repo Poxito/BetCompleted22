@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#findTeam(LUser;)LTeam;
+gui.AdminGUI#getBusinessLogic()LBLFacade;

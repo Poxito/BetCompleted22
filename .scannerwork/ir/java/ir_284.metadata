@@ -1,1 +1,1 @@
-domain.Message#<init>()V
+domain.Message#getHartzailea()LUser;

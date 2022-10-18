@@ -1,2 +1,1 @@
-domain.ApustuAnitza#toString()Ljava/lang/String;
-java.lang.Double#toString()Ljava/lang/String;
+domain.Elkarrizketa#getElkarrizketaNumber()Ljava/lang/Integer;

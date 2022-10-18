@@ -1,1 +1,2 @@
-domain.Message#getTestua()Ljava/lang/String;
+gui.ApustuakEzabatuGUI#instance-init#
+javax.swing.DefaultComboBoxModel#<init>()V

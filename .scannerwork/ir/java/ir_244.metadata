@@ -1,1 +1,1 @@
-domain.Event#setQuestions(Ljava/util/Vector;)V
+domain.Event#getDescription()Ljava/lang/String;

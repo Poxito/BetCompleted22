@@ -1,1 +1,3 @@
-domain.ApustuAnitza#removeApustua(LApustua;)V
+domain.Elkarrizketa#<init>(Ljava/lang/String;Ldomain/User;Ldomain/User;)V
+java.util.Date#<init>()V
+java.util.Date#instance-init#

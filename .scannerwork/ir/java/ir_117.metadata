@@ -1,3 +1,1 @@
-test.dataAccess.TestDataAccess#open()V
-java.util.HashMap#<init>()V
-java.util.HashMap#instance-init#
+domain.Question#getQuotes()Ljava/util/Vector;

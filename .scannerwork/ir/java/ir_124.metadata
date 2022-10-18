@@ -1,1 +1,1 @@
-domain.Question#<init>(Ljava/lang/Integer;Ljava/lang/String;DLdomain/Event;)V
+domain.Question#getBetMinimum()D

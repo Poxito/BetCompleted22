@@ -1,16 +1,9 @@
 
-5configuration.ConfigXML#getLocale()Ljava/lang/String;V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java1 1("1*ô
+*configuration.ConfigXML#getDatabasePort()IV
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java5 5("1*½
 1V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java2	 2(¢
-Ÿ
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java6	 6("`
 V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java2	 2(
-%0java.lang.String"__id*'*%
-configuration.ConfigXML"
-locale"r
-V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java2 2(
-
-%0java.lang.StringB
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java6 6(
+""B
 configuration.ConfigXML

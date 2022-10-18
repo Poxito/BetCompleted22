@@ -1,1 +1,1 @@
-domain.ApustuAnitza#setEgoera(Ljava/lang/String;)V
+domain.ApustuAnitza#removeApustua(LApustua;)V

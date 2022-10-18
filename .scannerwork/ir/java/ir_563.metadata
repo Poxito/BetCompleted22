@@ -1,1 +1,1 @@
-configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;
+configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;

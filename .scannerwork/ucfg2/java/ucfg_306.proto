@@ -1,16 +1,16 @@
 
-5domain.Registered#getTransakzioak()Ljava/util/Vector;P
-FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java4 4(+"1*â
+0domain.Registered#getDirukop()Ljava/lang/Double;P
+FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java< <("1*Ý
 1P
-FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java5	 5(œ
-™
+FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java=	 =(—
+”
 P
-FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java5	 5(
-%0java.util.Vector"__id*'*%
-domain.Registered"
-transakzioak"l
+FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java=	 =(
+%0java.lang.Double"__id*"* 
+domain.Registered"	
+dirukop"l
 P
-FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java5 5(
+FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java= =(
 
-%0java.util.VectorB
+%0java.lang.DoubleB
 domain.Registered

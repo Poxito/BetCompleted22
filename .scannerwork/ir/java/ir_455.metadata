@@ -1,1 +1,2 @@
-domain.Registered#removeSportEstatistikak(Ldomain/Sport;)V
+domain.Registered#toString()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

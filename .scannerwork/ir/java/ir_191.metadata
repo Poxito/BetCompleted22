@@ -1,1 +1,1 @@
-gui.SarreraOntziaGUI#getListCellRendererComponent(Ljavax/swing/JList;Ljava/lang/Object;IZZ)Ljava/awt/Component;
+gui.GertaerakKopiatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

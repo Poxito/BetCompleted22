@@ -1,81 +1,16 @@
 
-(domain.Sport#equals(Ljava/lang/Object;)ZK
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.javaV V("startingBlock*ß
-2K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.java[
- [("U
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.java[ [(
-""*À
-3K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.javaZ Z(∫∑
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.javaZ Z(
-%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
-
-ojava.lang.Object2
-getClass()≥∞
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.javaZ Z(#
-%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*
-domain.Sport2
-getClass()*
-2
-1*¯
-startingBlockK
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.javaV V( ì
-ê
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.javaU U(
-
-%5"
-__annotate*
-java.lang.Override*
-
-ojava.lang.Object|
-z
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.javaV V(
-ojava.lang.Object"__annotation*
-
-%5*
-3
-4*ß
-4K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.javaX
- X("U
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.javaX X(
-""*”
+)domain.Quote#getQuote()Ljava/lang/Double;K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.java9 9("1*«
 1K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.java] ](É
-Ä
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.java] ](
-spdomain.Sport"__id*
-
-ojava.lang.Objectã
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.java:	 :(ã
 à
 K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.java^	 ^(
-%2java.lang.String"__id**
-domain.Sport"
-izenaµ≤
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.java:	 :(
+%0java.lang.Double"__id**
+domain.Quote"
+balio"g
 K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.java^ ^((
-%3java.lang.String")domain.Sport#getIzena()Ljava/lang/String;*
-
-spdomain.Sport2
-getIzena()›⁄
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.java^	 ^()
-%4boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.java: :(
 
-%2java.lang.String*
-
-%3java.lang.String2equals(Ljava/lang/Object;)"U
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Sport.java^ ^(*
-"":
-ojava.lang.ObjectB
-domain.Sport
+%0java.lang.DoubleB
+domain.Quote

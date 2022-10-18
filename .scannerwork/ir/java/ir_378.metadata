@@ -1,1 +1,1 @@
-domain.Sport#getEvents()Ljava/util/Vector;
+domain.Sport#addKirolEstatistikak(LKirolEstatistikak;)V

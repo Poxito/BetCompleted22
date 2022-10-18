@@ -1,1 +1,1 @@
-domain.Event#setSport(LSport;)V
+domain.Event#setLokala(LTeam;)V

@@ -1,1 +1,1 @@
-domain.ApustuAnitza#setApustuAnitzaNumber(Ljava/lang/Integer;)V
+domain.ApustuAnitza#getEgoera()Ljava/lang/String;

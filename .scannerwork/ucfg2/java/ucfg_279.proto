@@ -1,16 +1,15 @@
 
-0domain.Quote#getQuoteNumber()Ljava/lang/Integer;K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.javaI I("1*œ
+domain.Quote#hashCode()IK
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.javam m("1*º
 1K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.javaJ	 J(í
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.javan	 n(í
 è
 K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.javaJ	 J(
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.javan	 n(
 %0java.lang.Integer"__id*!*
 domain.Quote"
-quoteNumber"h
+quoteNumber"U
 K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.javaJ J(
-
-%0java.lang.IntegerB
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Quote.javan n(
+""B
 domain.Quote

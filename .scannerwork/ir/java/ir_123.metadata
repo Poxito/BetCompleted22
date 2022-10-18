@@ -1,1 +1,1 @@
-domain.Question#getQuotes()Ljava/util/Vector;
+domain.Question#setQuestion(Ljava/lang/String;)V

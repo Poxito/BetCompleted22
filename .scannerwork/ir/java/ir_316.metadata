@@ -1,2 +1,1 @@
-businessLogic.BLFacadeImplementation#close()V
-null
+businessLogic.BLFacadeImplementation#storeQuote(Ljava/lang/String;Ljava/lang/Double;LQuestion;)V

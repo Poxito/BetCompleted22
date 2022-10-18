@@ -1,1 +1,1 @@
-domain.Registered#containsKirola(Ldomain/Sport;)Z
+domain.Registered#getSportEstatistikak()Ljava/util/Vector;

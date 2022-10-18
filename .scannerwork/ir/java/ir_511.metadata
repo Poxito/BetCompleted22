@@ -1,1 +1,1 @@
-domain.ElkarrizketaContainer#getLehenIgorle()LUser;
+domain.ElkarrizketaContainer#getMessage()Ljava/util/Vector;

@@ -1,16 +1,16 @@
 
--domain.Registered#getMode()Ljava/lang/String;P
-FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java\ \("1*Ú
+4domain.Registered#getDiruLimitea()Ljava/lang/Double;P
+FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.javad d("1*á
 1P
-FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java]	 ](”
-‘
+FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.javae	 e(›
+˜
 P
-FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java]	 ](
-%0java.lang.String"__id**
-domain.Registered"
-mode"l
+FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.javae	 e(
+%0java.lang.Double"__id*&*$
+domain.Registered"
+diruLimitea"l
 P
-FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.java] ](
+FC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Registered.javae e(
 
-%0java.lang.StringB
+%0java.lang.DoubleB
 domain.Registered

@@ -157,7 +157,7 @@ public class Registered extends User implements Serializable{
 		this.sportEstatistikak.add(ke);
 	}
 	
-	public void removeSportEstatistikak(Sport spo) {
+	public void removeSportEstatistikak(Object spo) {
 		this.sportEstatistikak.remove(spo);
 	}
 	

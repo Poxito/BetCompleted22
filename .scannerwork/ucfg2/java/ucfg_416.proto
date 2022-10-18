@@ -1,16 +1,16 @@
 
-@configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java’ ’(#"1*…
+@configuration.ConfigXML#getBusinessLogicPort()Ljava/lang/String;X
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java˜ ˜(#"1*…
 1X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java“	 “(¯
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java™	 ™(¯
 ¬
 X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java“	 “(
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java™	 ™(
 %0java.lang.String"__id*2*0
 configuration.ConfigXML"
-businessLogicNode"t
+businessLogicPort"t
 X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java“ “(
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java™ ™(
 
 %0java.lang.StringB
 configuration.ConfigXML

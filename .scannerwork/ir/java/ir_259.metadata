@@ -1,2 +1,2 @@
-domain.Event#DoesQuestionExists(Ljava/lang/String;)Z
-java.lang.String#compareTo(Ljava/lang/String;)I
+domain.Event#equals(Ljava/lang/Object;)Z
+java.lang.Object#getClass()Ljava/lang/Class;

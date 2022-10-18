@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#findQuestionFromQuote(Ldomain/Quote;)LQuestion;
+domain.TeamRenderer#<init>()V

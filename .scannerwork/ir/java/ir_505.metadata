@@ -1,3 +1,1 @@
-gui.TaldeaApostatuGUI#instance-init#
-gui.MainGUI#getBusinessLogic()LBLFacade;
-javax.swing.DefaultListModel#<init>()V
+domain.ElkarrizketaContainer#<init>()V

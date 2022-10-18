@@ -1,1 +1,1 @@
-domain.Registered#getJarraitzaileLista()Ljava/util/Vector;
+domain.Registered#addTransaction(Ldomain/Transaction;)V

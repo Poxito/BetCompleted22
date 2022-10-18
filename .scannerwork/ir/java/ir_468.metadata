@@ -1,1 +1,1 @@
-domain.Transaction#getTransactionNumber()Ljava/lang/Integer;
+domain.Transaction#getDirua()Ljava/lang/Double;

@@ -1,1 +1,1 @@
-domain.Message#getHartzailea()LUser;
+domain.Message#getElkarrizketa()LElkarrizketa;

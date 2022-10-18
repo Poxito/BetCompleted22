@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#EmaitzakIpini(Ldomain/Quote;)V
+businessLogic.BLFacadeImplementation#getEventsAll()Ljava/util/List;

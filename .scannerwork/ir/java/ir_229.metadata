@@ -1,1 +1,1 @@
-domain.Elkarrizketa#getTitulo()Ljava/lang/String;
+domain.Elkarrizketa#getUser1()Ldomain/User;

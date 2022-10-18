@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#mezuaIkusita(Ldomain/Message;)V
+businessLogic.BLFacadeImplementation#getAllTeams()Ljava/util/List;

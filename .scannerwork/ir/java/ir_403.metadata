@@ -1,2 +1,3 @@
-domain.Quote#toString()Ljava/lang/String;
-java.lang.Double#toString(D)Ljava/lang/String;
+gui.PopularGUI#instance-init#
+javax.swing.DefaultListModel#instance-init#
+javax.swing.DefaultListModel#<init>()V

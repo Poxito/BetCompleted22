@@ -1,1 +1,1 @@
-domain.Transaction#getData()Ljava/util/Date;
+domain.Transaction#toString()Ljava/lang/String;

@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#storeQuote(Ljava/lang/String;Ljava/lang/Double;LQuestion;)V
+businessLogic.BLFacadeImplementation#findApustuAnitza(LUser;)Ljava/util/List;

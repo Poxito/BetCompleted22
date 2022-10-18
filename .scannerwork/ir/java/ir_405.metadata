@@ -1,1 +1,1 @@
-domain.Quote#removeApustua(LApustua;)V
+gui.PopularGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

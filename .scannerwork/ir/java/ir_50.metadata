@@ -1,2 +1,3 @@
 domain.Team#instance-init#
+java.util.ArrayList#<init>()V
 java.util.Vector#<init>()V

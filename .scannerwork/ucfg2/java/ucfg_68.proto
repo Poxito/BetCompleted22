@@ -1,16 +1,23 @@
 
-(domain.Question#getEvent()Ldomain/Event;P
-DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.javaô ô("1*—
+3domain.Question#doesQuoteExist(Ljava/lang/String;)ZP
+DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.java∑ ∑("5*±
+3P
+DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.java∫ ∫("Z
+P
+DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.java∫ ∫(
+""*å
+5P
+DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.java∏ ∏(¨©
+P
+DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.java∏ ∏(!
+%0"-domain.Question#getQuotes()Ljava/util/Vector;*
+domain.Question2getQuotes()*
+3
+1*±
 1P
-DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.javaö	 ö(è
-å
+DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.javaæ	 æ("Z
 P
-DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.javaö	 ö(
-%0domain.Event"__id**
-domain.Question"
-event"h
-P
-DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.javaö ö(
-
-%0domain.EventB
+DC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Question.javaæ æ(
+"":
+forecastjava.lang.StringB
 domain.Question

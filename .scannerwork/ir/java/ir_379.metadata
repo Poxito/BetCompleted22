@@ -1,1 +1,1 @@
-domain.Sport#setEvents(Ljava/util/Vector;)V
+domain.Sport#getSportEstatistikak()Ljava/util/Vector;

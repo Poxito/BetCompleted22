@@ -39,7 +39,7 @@ public class Event implements Serializable {
 		this.questions = questions;
 	}
 
-	public Event() {
+	public Event(String desc, Date d) {
 		super();
 	}
 

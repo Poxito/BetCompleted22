@@ -1,17 +1,16 @@
 
-9domain.KirolEstatistikak#getKENumber()Ljava/lang/Integer;W
-MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java% %("1*ü
+5domain.KirolEstatistikak#getKont()Ljava/lang/Integer;W
+MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java= =("1*ø
 1W
-MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java&	 &(§
-¤
+MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java>	 >(£
+ 
 W
-MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java&	 &(
-%0java.lang.Integer"__id***(
-domain.KirolEstatistikak"
-
-KENumber"t
+MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java>	 >(
+%0java.lang.Integer"__id*&*$
+domain.KirolEstatistikak"
+kont"t
 W
-MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java& &(
+MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java> >(
 
 %0java.lang.IntegerB
 domain.KirolEstatistikak

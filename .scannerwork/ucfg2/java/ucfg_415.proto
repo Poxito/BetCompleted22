@@ -1,16 +1,16 @@
 
->configuration.ConfigXML#getInstance()Lconfiguration/ConfigXML;X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaé é($"1*ç
+@configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;X
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaî î(#"1*Ö
 1X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaè	 è(∞
-≠
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaï	 ï(Ø
+¨
 X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaè	 è(
-%0configuration.ConfigXML"__id*,**
-configuration.ConfigXML"
-theInstance"{
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaï	 ï(
+%0java.lang.String"__id*2*0
+configuration.ConfigXML"
+businessLogicNode"t
 X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaè è(
-
-%0configuration.ConfigXMLB"
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaï ï(
+
+%0java.lang.StringB
 configuration.ConfigXML

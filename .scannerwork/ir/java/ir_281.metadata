@@ -1,1 +1,1 @@
-gui.MugimenduakBistaratuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+domain.Message#setMessageNumber(Ljava/lang/Integer;)V

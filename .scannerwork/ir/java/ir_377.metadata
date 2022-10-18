@@ -1,1 +1,1 @@
-domain.Sport#setIzena(Ljava/lang/String;)V
+domain.Sport#addEvent(LEvent;)V

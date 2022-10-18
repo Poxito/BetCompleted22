@@ -1,1 +1,1 @@
-exceptions.ApustuaAlreadyExist#<init>(Ljava/lang/String;)V
+domain.Registered#getTransakzioak()Ljava/util/Vector;

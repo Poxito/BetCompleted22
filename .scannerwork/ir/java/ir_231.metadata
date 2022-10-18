@@ -1,1 +1,1 @@
-domain.Elkarrizketa#getData()Ljava/util/Date;
+domain.Elkarrizketa#getUser2()Ldomain/User;

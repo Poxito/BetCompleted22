@@ -1,1 +1,1 @@
-configuration.ConfigXML#getLocale()Ljava/lang/String;
+configuration.ConfigXML#getPassword()Ljava/lang/String;

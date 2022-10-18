@@ -1,15 +1,17 @@
 
-domain.Event#hashCode()IM
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java’ ’("1*Â
-1M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java“ “(”
-‘
-M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java• •('
-%0java.lang.Integer"__id*!*
-domain.Event"
-eventNumber"W
-M
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java– –(
-""B
-domain.Event
+9domain.KirolEstatistikak#getKENumber()Ljava/lang/Integer;W
+MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java% %("1*ü
+1W
+MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java&	 &(§
+¤
+W
+MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java&	 &(
+%0java.lang.Integer"__id***(
+domain.KirolEstatistikak"
+
+KENumber"t
+W
+MC:/Users/aitor/git/BetCompleted22/src/main/java/domain/KirolEstatistikak.java& &(
+
+%0java.lang.IntegerB
+domain.KirolEstatistikak

@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#<init>(LDataAccess;)V
+businessLogic.BLFacadeImplementation#isLogin(Ljava/lang/String;Ljava/lang/String;)LUser;

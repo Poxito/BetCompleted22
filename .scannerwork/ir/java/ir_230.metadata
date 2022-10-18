@@ -1,1 +1,1 @@
-domain.Elkarrizketa#setTitulo(Ljava/lang/String;)V
+domain.Elkarrizketa#setUser1(Ldomain/User;)V

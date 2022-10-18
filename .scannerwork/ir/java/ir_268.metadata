@@ -1,1 +1,1 @@
-domain.KirolEstatistikak#<init>(LRegistered;LSport;)V
+domain.KirolEstatistikak#setSport(LSport;)V

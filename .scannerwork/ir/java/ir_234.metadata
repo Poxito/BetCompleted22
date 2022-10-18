@@ -1,1 +1,2 @@
-domain.Elkarrizketa#setMessages(Ljava/util/Vector;)V
+domain.Elkarrizketa#denakIrakurrita(Ldomain/User;)Z
+java.lang.String#equals(Ljava/lang/Object;)Z

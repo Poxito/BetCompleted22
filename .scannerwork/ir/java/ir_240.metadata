@@ -1,2 +1,1 @@
-domain.Elkarrizketa#denakIrakurrita(Ldomain/User;)Z
-java.lang.String#equals(Ljava/lang/Object;)Z
+domain.Event#<init>(Ljava/lang/Integer;Ljava/lang/String;Ljava/util/Date;LTeam;LTeam;)V

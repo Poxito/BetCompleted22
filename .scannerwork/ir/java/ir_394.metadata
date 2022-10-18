@@ -1,1 +1,1 @@
-domain.Quote#setApustuak(Ljava/util/Vector;)V
+domain.Quote#getQuoteNumber()Ljava/lang/Integer;

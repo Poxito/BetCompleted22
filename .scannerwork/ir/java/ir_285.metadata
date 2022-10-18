@@ -1,1 +1,1 @@
-domain.Message#<init>(LUser;LUser;Ljava/lang/String;)V
+domain.Message#setHartzailea(LUser;)V

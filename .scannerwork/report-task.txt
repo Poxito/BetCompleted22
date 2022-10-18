@@ -3,5 +3,5 @@ projectKey=proiektuFinalaSI2
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.33148
 dashboardUrl=https://sonarcloud.io/dashboard?id=proiektuFinalaSI2
-ceTaskId=AYO3Y30blynUE0zPAfXD
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYO3Y30blynUE0zPAfXD
+ceTaskId=AYO4qZCQhPmCAbZiKhHJ
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYO4qZCQhPmCAbZiKhHJ

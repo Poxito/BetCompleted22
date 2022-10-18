@@ -1,37 +1,55 @@
 
-)domain.Event#toString()Ljava/lang/String;K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java] ]("1*¢
-1K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java^	 ^(í
-è
+4domain.Event#DoesQuestionExists(Ljava/lang/String;)ZK
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.javay y(""5*‰
+2K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.javaz z(s
+q
 K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java^	 ^(
-%0java.lang.Integer"__id*!*
-domain.Event"
-eventNumberî
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.javaz z(
+qdomain.Question"__id*
+""î
 ë
 K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java^	 ^(
-%1java.lang.String"__concat*
-
-%0java.lang.Integer*
-;ë
-é
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java^ ^($
-%2java.lang.String"__id*!*
-domain.Event"
-description¶
-£
-K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java^	 ^($
-%3java.lang.String"__concat*
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.javaz z(
+qdomain.Question"
+__arrayGet*
 
-%1java.lang.String*
-
-%2java.lang.String"g
+%0java.util.Vector*
+""*
+4
+1*ß
+3K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java| |("U
 K
-AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java^ ^(%
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java| |(
+""*É
+4K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java{ {(¿Ω
+K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java{ {(
+%1java.lang.String"/domain.Question#getQuestion()Ljava/lang/String;*
+
+qdomain.Question2getQuestion()Â‚
+K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java{ {(*	
+%2int"/java.lang.String#compareTo(Ljava/lang/String;)I*
 
-%3java.lang.StringB
+%1java.lang.String*
+
+questionjava.lang.String2compareTo(Ljava/lang/String;)*
+2
+3*ë
+5K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.javaz z(π∂
+K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.javaz z(%
+%0java.util.Vector"-domain.Event#getQuestions()Ljava/util/Vector;*
+domain.Event2getQuestions()*
+2*ß
+1K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java~	 ~("U
+K
+AC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Event.java~ ~(
+"":
+questionjava.lang.StringB
 domain.Event

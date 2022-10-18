@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#elkarrizketakLortu(LUser;)Ljava/util/List;
+businessLogic.BLFacadeImplementation#jarraitu(Ldomain/Registered;Ldomain/Registered;Ljava/lang/Double;)Z

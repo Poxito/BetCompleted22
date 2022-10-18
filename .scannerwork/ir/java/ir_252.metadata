@@ -1,1 +1,1 @@
-domain.Event#getEventDate()Ljava/util/Date;
+domain.Event#listaraGehitu(Ldomain/Question;)V

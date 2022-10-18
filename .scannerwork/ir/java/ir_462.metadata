@@ -1,1 +1,1 @@
-domain.Admin#instance-init#
+domain.Transaction#<init>(Ldomain/Registered;Ljava/lang/Double;Ljava/util/Date;Ljava/lang/String;)V

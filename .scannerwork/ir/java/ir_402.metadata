@@ -1,1 +1,2 @@
-domain.Quote#setQuestion(LQuestion;)V
+domain.Quote#equals(Ljava/lang/Object;)Z
+java.lang.Object#getClass()Ljava/lang/Class;

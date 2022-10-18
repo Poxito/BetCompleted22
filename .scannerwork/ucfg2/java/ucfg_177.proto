@@ -1,16 +1,37 @@
 
-+domain.Elkarrizketa#getUser2()Ldomain/User;R
-HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javaX X("1*Ù
+0domain.Elkarrizketa#toString()Ljava/lang/String;R
+HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javan n("1*Ê
 1R
-HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javaY	 Y(”
-‘
+HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javao	 o(–
+“
 R
-HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javaY	 Y(
-%0domain.User"__id*"* 
-domain.Elkarrizketa"
-user2"i
+HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javao	 o(
+%0java.util.Date"__id*!*
+domain.Elkarrizketa"
+dataš
+—
 R
-HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javaY Y(
-
-%0domain.UserB
+HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javao	 o(
+%1java.lang.String"__concat*
+
+%0java.util.Date*
+ : š
+—
+R
+HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javao o('
+%2java.lang.String"__id*#*!
+domain.Elkarrizketa"
+titulo­
+ª
+R
+HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javao	 o('
+%3java.lang.String"__concat*
+
+%1java.lang.String*
+
+%2java.lang.String"n
+R
+HC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Elkarrizketa.javao o((
+
+%3java.lang.StringB
 domain.Elkarrizketa

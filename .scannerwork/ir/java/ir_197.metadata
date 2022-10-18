@@ -1,1 +1,1 @@
-gui.GertaerakKopiatuGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V
+domain.ApustuAnitza#setUser(LRegistered;)V

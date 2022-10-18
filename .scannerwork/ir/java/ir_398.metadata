@@ -1,1 +1,2 @@
-domain.Quote#setForecast(Ljava/lang/String;)V
+domain.Quote#toString()Ljava/lang/String;
+java.lang.Double#toString(D)Ljava/lang/String;

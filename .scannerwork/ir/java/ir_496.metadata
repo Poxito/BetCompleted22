@@ -1,9 +1,3 @@
-gui.MainGUI#getJContentPane()Ljavax/swing/JPanel;
-gui.MainGUI#getLblNewLabel()Ljavax/swing/JLabel;
-gui.MainGUI#getBoton3()Ljavax/swing/JButton;
-java.awt.GridLayout#<init>(IIII)V
-javax.swing.JPanel#<init>()V
-gui.MainGUI#getBoton2()Ljavax/swing/JButton;
-java.awt.GridLayout#instance-init#
-gui.MainGUI#getPanel()Ljavax/swing/JPanel;
-javax.swing.JPanel#instance-init#
+gui.MainGUI#getRdbtnNewRadioButton()Ljavax/swing/JRadioButton;
+javax.swing.JRadioButton#instance-init#
+javax.swing.JRadioButton#<init>(Ljava/lang/String;)V

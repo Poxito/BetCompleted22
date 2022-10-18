@@ -1,2 +1,1 @@
-domain.Registered#instance-init#
-java.util.Vector#<init>()V
+domain.Registered#setTransakzioak(Ljava/util/Vector;)V

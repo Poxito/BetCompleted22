@@ -1,16 +1,67 @@
 
-.domain.Transaction#getMota()Ljava/lang/String;Q
-GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaA A("1*ﬁ
+/domain.Transaction#toString()Ljava/lang/String;Q
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaI I("1*”
 1Q
-GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaB	 B(ñ
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJ	 J(î
+ë
+Q
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJ J(
+%0java.util.Date"__id* *
+domain.Transaction"
+dataú
+ô
+Q
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJ	 J(
+%1java.lang.String"__concat*
+
+Data: *
+
+%0java.util.Date°
+û
+Q
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJ	 J(+
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+	, dirua: ó
+î
+Q
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJ. J(8
+%3java.lang.Double"__id*!*
+domain.Transaction"
+dirua¨
+©
+Q
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJ	 J(8
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.Double†
+ù
+Q
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJ	 J(E
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+, mota: ñ
 ì
 Q
-GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaB	 B(
-%0java.lang.String"__id* *
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJH J(Q
+%6java.lang.String"__id* *
 domain.Transaction"
-mota"m
+mota¨
+©
 Q
-GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaB B(
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJ	 J(Q
+%7java.lang.String"__concat*
 
-%0java.lang.StringB
+%5java.lang.String*
+
+%6java.lang.String"m
+Q
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.javaJ J(R
+
+%7java.lang.StringB
 domain.Transaction

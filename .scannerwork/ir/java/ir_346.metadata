@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#findUser(LUser;)LUser;
+businessLogic.BLFacadeImplementation#mezuakLortu(LElkarrizketa;)Ljava/util/List;

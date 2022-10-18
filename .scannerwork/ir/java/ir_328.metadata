@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#findApustuAnitza(LUser;)Ljava/util/List;
+businessLogic.BLFacadeImplementation#elkarrizketakLortu(LUser;)Ljava/util/List;

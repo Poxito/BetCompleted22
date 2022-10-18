@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#apustuaEzabatu(LUser;LApustuAnitza;)V
+businessLogic.BLFacadeImplementation#mezuaBidali(LUser;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;LElkarrizketa;)Z

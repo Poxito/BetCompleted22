@@ -1,1 +1,1 @@
-domain.User#getPassword()Ljava/lang/String;
+domain.User#getJasotakoak()Ljava/util/Vector;

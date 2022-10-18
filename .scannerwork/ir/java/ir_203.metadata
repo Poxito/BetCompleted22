@@ -1,1 +1,1 @@
-domain.ApustuAnitza#setUser(LRegistered;)V
+domain.ApustuAnitza#setData(Ljava/util/Date;)V

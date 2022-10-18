@@ -1,1 +1,1 @@
-domain.Transaction#instance-init#
+domain.Transaction#setTransactionNumber(Ljava/lang/Integer;)V

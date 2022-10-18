@@ -1,1 +1,2 @@
-exceptions.QuestionAlreadyExist#<init>(Ljava/lang/String;)V
+domain.Registered#instance-init#
+java.util.Vector#<init>()V

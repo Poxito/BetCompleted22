@@ -1,2 +1,1 @@
-domain.MezuakRenderer#instance-init#
-gui.MainGUI#getBusinessLogic()LBLFacade;
+domain.Apustua#<init>(LApustuAnitza;LQuote;)V

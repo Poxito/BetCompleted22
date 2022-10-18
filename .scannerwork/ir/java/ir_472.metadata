@@ -1,1 +1,1 @@
-domain.Transaction#getDirua()Ljava/lang/Double;
+domain.Transaction#getMota()Ljava/lang/String;

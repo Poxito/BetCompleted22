@@ -1,1 +1,2 @@
-domain.Sport#addKirolEstatistikak(LKirolEstatistikak;)V
+domain.Quote#instance-init#
+java.util.Vector#<init>()V

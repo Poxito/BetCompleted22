@@ -1,1 +1,3 @@
-domain.Event#setDescription(Ljava/lang/String;)V
+domain.Event#addQuestion(Ljava/lang/String;D)Ldomain/Question;
+domain.Question#<init>(Ljava/lang/String;DLdomain/Event;)V
+domain.Question#instance-init#

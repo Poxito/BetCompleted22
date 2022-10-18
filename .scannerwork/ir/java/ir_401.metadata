@@ -1,1 +1,1 @@
-domain.Quote#getQuestion()LQuestion;
+domain.Quote#hashCode()I

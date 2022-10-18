@@ -1,16 +1,17 @@
 
-3configuration.ConfigXML#getUser()Ljava/lang/String;V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java9 9("1*ò
+7configuration.ConfigXML#getPassword()Ljava/lang/String;V
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java= =("1*ö
 1V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java:	 :( 
-
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java>	 >(¤
+¡
 V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java:	 :(
-%0java.lang.String"__id*%*#
-configuration.ConfigXML"
-user"r
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java>	 >(
+%0java.lang.String"__id*)*'
+configuration.ConfigXML"
+
+password"r
 V
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java: :(
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java> >(
 
 %0java.lang.StringB
 configuration.ConfigXML

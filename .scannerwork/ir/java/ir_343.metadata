@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#ezJarraituTaldea(LUser;)V
+businessLogic.BLFacadeImplementation#findEvent(Ldomain/Quote;)LEvent;

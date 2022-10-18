@@ -1,1 +1,1 @@
-domain.User#getJasotakoak()Ljava/util/Vector;
+domain.User#addElkarrizketak(Ldomain/Elkarrizketa;)V

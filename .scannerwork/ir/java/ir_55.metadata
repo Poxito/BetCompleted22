@@ -1,1 +1,1 @@
-domain.Team#getUsers()Ljava/util/Vector;
+domain.Team#getUsers()Ljava/util/ArrayList;

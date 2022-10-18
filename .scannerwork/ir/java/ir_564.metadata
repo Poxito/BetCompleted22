@@ -1,1 +1,1 @@
-configuration.ConfigXML#getBusinessLogicNode()Ljava/lang/String;
+configuration.ConfigXML#getDbFilename()Ljava/lang/String;

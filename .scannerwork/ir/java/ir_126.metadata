@@ -1,1 +1,1 @@
-domain.Question#getQuestionNumber()Ljava/lang/Integer;
+domain.Question#getResult()Ljava/lang/String;

@@ -1,1 +1,1 @@
-configuration.ConfigXML#instance-init#
+configuration.ConfigXML#getUser()Ljava/lang/String;

@@ -1,1 +1,1 @@
-domain.Transaction#setErabiltzailea(Ldomain/Registered;)V
+domain.Transaction#setData(Ljava/util/Date;)V

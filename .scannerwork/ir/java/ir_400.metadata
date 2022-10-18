@@ -1,1 +1,1 @@
-domain.Quote#setQuoteNumber(Ljava/lang/Integer;)V
+domain.Quote#removeApustua(LApustua;)V

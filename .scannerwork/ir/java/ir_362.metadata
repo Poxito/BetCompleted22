@@ -1,4 +1,5 @@
-gui.AdminGUI#initialize()V
+gui.AdminGUI#getBtnNewButton_1()Ljavax/swing/JButton;
 java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
 java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-gui.AdminGUI#getJContentPane()Ljavax/swing/JPanel;
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.JButton#instance-init#

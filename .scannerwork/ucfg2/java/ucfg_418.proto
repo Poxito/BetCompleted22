@@ -1,16 +1,17 @@
 
-@configuration.ConfigXML#getBusinessLogicName()Ljava/lang/String;X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.javaš š(#"1*…
+9configuration.ConfigXML#getDbFilename()Ljava/lang/String;X
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java   ("1*þ
 1X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java›	 ›(¯
-¬
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java¡	 ¡(¨
+¥
 X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java›	 ›(
-%0java.lang.String"__id*2*0
-configuration.ConfigXML"
-businessLogicName"t
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java¡	 ¡(
+%0java.lang.String"__id*+*)
+configuration.ConfigXML"
+
+dbFilename"t
 X
-LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java› ›(
+LC:/Users/aitor/git/BetCompleted22/src/main/java/configuration/ConfigXML.java¡ ¡(
 
 %0java.lang.StringB
 configuration.ConfigXML

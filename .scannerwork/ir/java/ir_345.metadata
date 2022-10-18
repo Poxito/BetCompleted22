@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#jarraituTaldea(LUser;LTeam;)V
+businessLogic.BLFacadeImplementation#findEventFromApustua(LApustua;)LEvent;

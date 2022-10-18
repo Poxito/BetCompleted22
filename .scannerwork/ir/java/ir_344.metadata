@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#getAllTeams()Ljava/util/List;
+businessLogic.BLFacadeImplementation#findQuestionFromQuote(Ldomain/Quote;)LQuestion;

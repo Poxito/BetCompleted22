@@ -1,1 +1,1 @@
-domain.Admin#<init>()V
+domain.Transaction#getTransactionNumber()Ljava/lang/Integer;

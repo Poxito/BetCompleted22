@@ -1,1 +1,1 @@
-domain.ApustuAnitza#getApustuAnitzaNumber()Ljava/lang/Integer;
+domain.ApustuAnitza#addApustua(LApustua;)V

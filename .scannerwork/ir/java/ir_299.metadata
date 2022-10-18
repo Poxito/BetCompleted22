@@ -1,15 +1,1 @@
-gui.ApustuakEzabatuGUI#<init>(LUser;)V
-java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
-java.util.Date#<init>()V
-javax.swing.JButton#<init>(Ljava/lang/String;)V
-java.util.Date#instance-init#
-java.awt.Dimension#<init>(II)V
-javax.swing.JLabel#<init>(Ljava/lang/String;)V
-java.awt.Dimension#instance-init#
-javax.swing.JLabel#instance-init#
-java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-java.awt.Font#<init>(Ljava/lang/String;II)V
-javax.swing.JComboBox#instance-init#
-java.awt.Font#instance-init#
-javax.swing.JComboBox#<init>()V
-javax.swing.JButton#instance-init#
+domain.ElkarrizketaRenderer#<init>(LUser;)V

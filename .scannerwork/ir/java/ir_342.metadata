@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#popularrenaLortu()Ldomain/Sport;
+businessLogic.BLFacadeImplementation#findElkarrizketa(LElkarrizketa;)LElkarrizketa;

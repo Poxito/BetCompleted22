@@ -1,1 +1,1 @@
-domain.Quote#setQuote(Ljava/lang/Double;)V
+domain.Quote#getQuestion()LQuestion;

@@ -1,1 +1,1 @@
-domain.User#setElkarrizketak(Ljava/util/Vector;)V
+gui.ApustuaEginGUI#jButtonClose_actionPerformed(Ljava/awt/event/ActionEvent;)V

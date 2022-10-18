@@ -1,1 +1,3 @@
-domain.Apustua#galdutaMarkatu(LQuote;)Z
+gui.MainUserGUI#instance-init#
+javax.swing.ButtonGroup#instance-init#
+javax.swing.ButtonGroup#<init>()V

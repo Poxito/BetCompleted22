@@ -1,27 +1,15 @@
 
-DbusinessLogic.BLFacadeImplementation#isRegister(Ljava/lang/String;)Ze
-YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaô ô("startingBlock* 
-startingBlocke
-YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaô ô(.´
-®
-e
-YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaò ò(
-%0"
-__annotate*
-	WebMethod*
-
-usernamejava.lang.Stringû
-õ
-e
-YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaô% ô(-
-usernamejava.lang.String"__annotation*
-
-%0*
-1*€
+CbusinessLogic.BLFacadeImplementation#rankingLortu()Ljava/util/List;e
+YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaõ õ(%"1*Å
 1e
-YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaö ö("o
+YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaú ú(ê
+ç
 e
-YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaù ù(
-"":
-usernamejava.lang.StringB(&
+YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaù ù(3
+rankjava.util.List"__id*
+"""Å
+e
+YC:/Users/aitor/git/BetCompleted22/src/main/java/businessLogic/BLFacadeImplementation.javaü ü(
+
+rankjava.util.ListB(&
 $businessLogic.BLFacadeImplementation

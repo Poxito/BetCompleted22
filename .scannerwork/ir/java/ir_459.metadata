@@ -1,1 +1,1 @@
-domain.Registered#toString()Ljava/lang/String;
+domain.Admin#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Integer;)V

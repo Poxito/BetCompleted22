@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#mezuaBidali(LUser;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;LElkarrizketa;)Z
+businessLogic.BLFacadeImplementation#gehiengoaLortu(LUser;)Ldomain/Sport;

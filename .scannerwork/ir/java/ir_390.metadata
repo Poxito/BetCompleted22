@@ -1,1 +1,1 @@
-domain.Quote#<init>()V
+domain.Quote#getQuote()Ljava/lang/Double;

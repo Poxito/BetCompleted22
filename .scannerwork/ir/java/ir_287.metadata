@@ -1,1 +1,1 @@
-domain.Message#setMessageNumber(Ljava/lang/Integer;)V
+domain.Message#setTestua(Ljava/lang/String;)V

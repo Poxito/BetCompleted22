@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#getEventsTeam(LTeam;)Ljava/util/List;
+businessLogic.BLFacadeImplementation#findTeam(LUser;)LTeam;

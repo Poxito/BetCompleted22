@@ -1,1 +1,1 @@
-domain.ApustuAnitza#setData(Ljava/util/Date;)V
+domain.ApustuAnitza#getApustuKopia()Ljava/lang/Integer;

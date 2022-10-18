@@ -1,3 +1,1 @@
-domain.User#instance-init#
-java.util.Vector#<init>()V
-java.util.Vector#instance-init#
+domain.User#setPassword(Ljava/lang/String;)V

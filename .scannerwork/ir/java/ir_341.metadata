@@ -1,1 +1,1 @@
-businessLogic.BLFacadeImplementation#gehiengoaLortu(LUser;)Ldomain/Sport;
+businessLogic.BLFacadeImplementation#getEventsTeam(LTeam;)Ljava/util/List;

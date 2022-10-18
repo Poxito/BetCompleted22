@@ -1,1 +1,1 @@
-domain.Event#setKanpokoa(LTeam;)V
+domain.KirolEstatistikak#getKENumber()Ljava/lang/Integer;

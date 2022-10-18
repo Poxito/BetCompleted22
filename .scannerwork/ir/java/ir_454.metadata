@@ -1,1 +1,1 @@
-domain.Registered#addKirolEstatistikak(LKirolEstatistikak;)V
+domain.Registered#setSportEstatistikak(Ljava/util/Vector;)V

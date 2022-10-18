@@ -1,1 +1,1 @@
-domain.User#getUsername()Ljava/lang/String;
+domain.User#getBidalitakoak()Ljava/util/Vector;

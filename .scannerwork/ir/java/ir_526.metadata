@@ -1,4 +1,1 @@
-domain.MezuakRenderer#getListCellRendererComponent(Ljavax/swing/JList;LMezuakContainer;IZZ)Ljava/awt/Component;
-javax.swing.ImageIcon#<init>(Ljava/awt/Image;)V
-javax.swing.ImageIcon#<init>(Ljava/lang/String;)V
-javax.swing.ImageIcon#instance-init#
+domain.Apustua#getApostuaNumber()Ljava/lang/Integer;

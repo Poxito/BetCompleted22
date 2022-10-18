@@ -1,1 +1,1 @@
-domain.Event#toString()Ljava/lang/String;
+domain.Event#getKanpokoa()LTeam;

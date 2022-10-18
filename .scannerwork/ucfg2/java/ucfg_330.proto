@@ -1,16 +1,16 @@
 
-/domain.Transaction#getDirua()Ljava/lang/Double;Q
-GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.java5 5("1*ß
+,domain.Transaction#getData()Ljava/util/Date;Q
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.java; ;("1*Ú
 1Q
-GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.java6	 6(—
-”
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.java<	 <(”
+‘
 Q
-GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.java6	 6(
-%0java.lang.Double"__id*!*
-domain.Transaction"
-dirua"m
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.java<	 <(
+%0java.util.Date"__id* *
+domain.Transaction"
+data"k
 Q
-GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.java6 6(
-
-%0java.lang.DoubleB
+GC:/Users/aitor/git/BetCompleted22/src/main/java/domain/Transaction.java< <(
+
+%0java.util.DateB
 domain.Transaction

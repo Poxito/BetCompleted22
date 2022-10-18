@@ -1,3 +1,4 @@
-gui.SugerenciasGUI#instance-init#
-javax.swing.DefaultListModel#instance-init#
-javax.swing.DefaultListModel#<init>()V
+gui.GertaerakKopiatuGUI#newDate(III)Ljava/util/Date;
+java.util.Calendar#getInstance()Ljava/util/Calendar;
+java.util.Calendar#set(IIIIII)V
+java.util.Calendar#getTime()Ljava/util/Date;

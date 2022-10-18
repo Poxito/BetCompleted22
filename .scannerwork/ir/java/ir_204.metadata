@@ -1,1 +1,1 @@
-domain.ApustuAnitza#getBalioa()Ljava/lang/Double;
+domain.ApustuAnitza#getApustuak()Ljava/util/Vector;

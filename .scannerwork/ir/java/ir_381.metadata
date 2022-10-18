@@ -1,1 +1,1 @@
-domain.Sport#setApustuKantitatea(Ljava/lang/Integer;)V
+domain.Sport#toString()Ljava/lang/String;

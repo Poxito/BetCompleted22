@@ -1,3 +1,1 @@
-businessLogic.BLFacadeImplementation#DiruaSartu(LUser;Ljava/lang/Double;Ljava/lang/String;)V
-java.util.Date#<init>()V
-java.util.Date#instance-init#
+businessLogic.BLFacadeImplementation#EmaitzakIpini(Ldomain/Quote;)V

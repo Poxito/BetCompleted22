@@ -1,7 +1,1 @@
-gui.RegisteredGUI#getBtnDestacados()Ljavax/swing/JButton;
-java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
-java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
-javax.swing.JButton#<init>(Ljava/lang/String;)V
-java.awt.Font#<init>(Ljava/lang/String;II)V
-java.awt.Font#instance-init#
-javax.swing.JButton#instance-init#
+domain.User#getPassword()Ljava/lang/String;

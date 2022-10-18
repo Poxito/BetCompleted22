@@ -1,1 +1,1 @@
-domain.Quote#getForecast()Ljava/lang/String;
+domain.Quote#setQuestion(LQuestion;)V

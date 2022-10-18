@@ -1,1 +1,1 @@
-test.dataAccess.TestDataAccess#existQuestion(LEvent;LQuestion;)Z
+domain.Question#getQuestionNumber()Ljava/lang/Integer;

@@ -1,1 +1,1 @@
-domain.Event#getSport()LSport;
+domain.Event#getLokala()LTeam;

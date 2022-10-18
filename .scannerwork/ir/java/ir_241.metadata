@@ -1,1 +1,1 @@
-domain.Elkarrizketa#toString()Ljava/lang/String;
+domain.Event#<init>(Ljava/lang/String;Ljava/util/Date;LTeam;LTeam;)V

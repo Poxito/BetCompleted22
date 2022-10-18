@@ -1,1 +1,12 @@
-domain.Question#setEvent(Ldomain/Event;)V
+gui.KuotakIpiniGUI#jbInit(Ljava/util/Vector;)V
+java.awt.Dimension#<init>(II)V
+javax.swing.JTextField#instance-init#
+javax.swing.JTextField#<init>()V
+java.util.ResourceBundle#getString(Ljava/lang/String;)Ljava/lang/String;
+java.awt.Dimension#instance-init#
+java.awt.Rectangle#instance-init#
+gui.KuotakIpiniGUI#paintDaysWithEvents(LJCalendar;Ljava/util/Vector;)V
+java.util.ResourceBundle#getBundle(Ljava/lang/String;)Ljava/util/ResourceBundle;
+java.awt.Rectangle#<init>(IIII)V
+javax.swing.JButton#<init>(Ljava/lang/String;)V
+javax.swing.JButton#instance-init#

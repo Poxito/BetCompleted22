@@ -1,1 +1,1 @@
-domain.Sport#getApustuKantitatea()Ljava/lang/Integer;
+domain.Sport#setSportEstatistikak(Ljava/util/Vector;)V

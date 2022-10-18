@@ -1,1 +1,1 @@
-domain.Elkarrizketa#<init>()V
+domain.Elkarrizketa#getData()Ljava/util/Date;
