@@ -1103,7 +1103,7 @@ public static void open(boolean initializeMode){
 	
 	public void ApustuaIrabazi(ApustuAnitza apustua) {
 		ApustuAnitza apustuAnitza = db.find(ApustuAnitza.class, apustua.getApustuAnitzaNumber());
-		Registered reg = (Registered) apustuAnitza.getUser();
+		Registered reg = apustuAnitza.getUser();
 		Registered r = (Registered) db.find(User.class, reg.getUsername());
 		db.getTransaction().begin();
 		apustuAnitza.setEgoera("irabazita");
