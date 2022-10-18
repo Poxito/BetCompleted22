@@ -1289,9 +1289,8 @@ public static void open(boolean initializeMode){
 	}
 	
 	public List<Event> getEventsAll() {	
-		TypedQuery<Event> query = db.createQuery("SELECT ev FROM Event ev ",Event.class);   
-		List<Event> events = query.getResultList();
-	 	return events;
+		TypedQuery<Event> query = db.createQuery("SELECT ev FROM Event ev ",Event.class);
+	 	return query.getResultList();
 	}
 	
 	public void mezuaIkusita(Message m) {
@@ -1302,8 +1301,7 @@ public static void open(boolean initializeMode){
 	}
 	
 	public Elkarrizketa findElkarrizketa(Elkarrizketa elk){
-		Elkarrizketa elkarrizketa = db.find(Elkarrizketa.class, elk.getElkarrizketaNumber()); 
-		return elkarrizketa;
+		return db.find(Elkarrizketa.class, elk.getElkarrizketaNumber());
 	}
 	
 	public boolean gertaerakKopiatu(Event e, Date date) {
@@ -1395,9 +1393,8 @@ public static void open(boolean initializeMode){
 	}
 	
 	public List<Team> getAllTeams() {	
-		TypedQuery<Team> query = db.createQuery("SELECT t FROM Team t ",Team.class);   
-		List<Team> teams = query.getResultList();
-	 	return teams;
+		TypedQuery<Team> query = db.createQuery("SELECT t FROM Team t ",Team.class);
+	 	return query.getResultList();
 	}
 	
 	public void jarraituTaldea(User u, Team t) {
