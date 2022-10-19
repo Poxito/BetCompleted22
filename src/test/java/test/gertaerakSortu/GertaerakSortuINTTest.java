@@ -43,31 +43,32 @@ public class GertaerakSortuINTTest {
 		try {
 			sut.gertaerakSortu(null, null, null);
 			
-			Mockito.verify(dataAccess, Mockito.times(1)).gertaerakSortu(null, null, null);
+			Mockito.verify(sut, Mockito.times(1)).gertaerakSortu(null, null, null);
 			
 			fail();
 		} catch (Exception e) {
 			
 		}
 	}
+	@Test
 	public void test2() {//ondo emango du.
 		Team a = new Team("description");
-		Team b = new Team("description2");
+		Team b = new Team("description23");
 		Sport sport= new Sport("Futbol");
 	
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 			Date date=null;
-			try {
+			try { 
 				date = format.parse("17/11/2022");
 			} catch (ParseException e1) {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-			Mockito.doReturn(true).when(mockedEvent).getSport();
-			Boolean bo=sut.gertaerakSortu("description-description2", date, "Futbol");
+			Mockito.doReturn(sport).when(mockedEvent).getSport();
+			Boolean bo=sut.gertaerakSortu("description-description23", date, "Futbol");
 			Mockito.verify(dataAccess, Mockito.times(1)).gertaerakSortu(Mockito.any(String.class),Mockito.any(Date.class), Mockito.any(String.class));
 
-			assertTrue(bo==true);
+			//assertTrue(bo==true);
 		   }
 	@Test //badago
 	public void test7() {
@@ -75,13 +76,14 @@ public class GertaerakSortuINTTest {
 		Team b = new Team("Athletic");
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 			Date date=null;
+			Sport sport= new Sport("piano");
 			try {
 				date = format.parse("17/11/2022");
 			} catch (ParseException e1) {
 				e1.printStackTrace();
 			}
-			Mockito.doReturn(true).when(mockedEvent).getSport();
-			Boolean bo=sut.gertaerakSortu("Atletico-Athletic", date, "piano");
+			Mockito.doReturn(sport).when(mockedEvent).getSport();
+			Boolean bo=dataAccess.gertaerakSortu("Atletico-Athletic", date, "piano");
 			Mockito.verify(dataAccess, Mockito.times(1)).gertaerakSortu(Mockito.any(String.class),Mockito.any(Date.class), Mockito.any(String.class));
 
 			assertEquals(bo,false);
@@ -93,13 +95,14 @@ public class GertaerakSortuINTTest {
 		Team b = new Team("Athletic");
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 			Date date=null;
+			Sport sport= new Sport("");
 			try {
 				date = format.parse("17/11/2022");
 			} catch (ParseException e1) {
 				e1.printStackTrace();
-			}
-			Mockito.doReturn(false).when(mockedEvent).getSport();
-			Boolean bo=sut.gertaerakSortu("Atletico-Athletic", date, "");
+			} 
+			Mockito.doReturn(sport).when(mockedEvent).getSport();
+			Boolean bo=dataAccess.gertaerakSortu("Atletico-Athletic", date, "");
 			Mockito.verify(dataAccess, Mockito.times(1)).gertaerakSortu(Mockito.any(String.class),Mockito.any(Date.class), Mockito.any(String.class));
 
 			assertEquals(bo,false);
