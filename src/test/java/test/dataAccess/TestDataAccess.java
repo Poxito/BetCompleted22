@@ -65,6 +65,14 @@ public class TestDataAccess {
 		System.out.println("DataBase closed");
 	}
 
+	public void beginTransaction() {
+		db.getTransaction().begin();
+	}
+	
+	public void commitTransaction() {
+		db.getTransaction().commit();
+	}
+	
 	public int createEvent(Event e) {
 		TypedQuery<Event> query = db.createQuery("SELECT ev FROM Event ev WHERE ev.description=?1 AND ev.eventDate=?2",
 				Event.class);

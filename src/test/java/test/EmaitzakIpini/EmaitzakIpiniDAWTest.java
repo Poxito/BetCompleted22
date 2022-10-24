@@ -2,6 +2,8 @@ package test.EmaitzakIpini;
 
 import static org.junit.Assert.*;
 
+import java.util.Date;
+
 import org.junit.Test;
 
 import configuration.UtilDate;
@@ -20,10 +22,10 @@ import test.dataAccess.TestDataAccess;
 public class EmaitzakIpiniDAWTest {
 
 	//sut:system under test
-	static DataAccess sut=new DataAccess();
+	static DataAccess sut = new DataAccess();
 		
 	//additional operations needed to execute the test 
-	static TestDataAccess testDA=new TestDataAccess();
+	static TestDataAccess testDA = new TestDataAccess();
 		
 	//Sortutako Quote-a ez dago datubasean
 	@Test 
@@ -40,6 +42,8 @@ public class EmaitzakIpiniDAWTest {
 			sut.EmaitzakIpini(quote111);
 		} catch (IllegalArgumentException e) {
 			fail("Parametro bezala sartu den Quote-a ez dago datubasean");
+		} catch (NullPointerException e) {
+			fail("Parametro bezala sartu den Quote-a ez dago datubasean");
 		} catch (EventNotFinished e) {
 			fail("Gertaera amiatu gabe dago");
 		}
@@ -50,7 +54,7 @@ public class EmaitzakIpiniDAWTest {
 	public void test2() {
 		Team team1= new Team("Almeria");
 		Team team2= new Team("Athletic");
-		Event ev111=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,10,17), team1, team2);
+		Event ev111=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,9,17), team1, team2);
 		Sport sp1=new Sport("Futbol");
 		sp1.addEvent(ev111);
 		Question q1=ev111.addQuestion("Zeinek irabaziko du partidua?",1);
@@ -64,6 +68,10 @@ public class EmaitzakIpiniDAWTest {
 			try {
 				sut.EmaitzakIpini(quote111);
 			} catch (EventNotFinished e) {
+				Date date = new Date();
+				System.out.println(date.toString());
+				System.out.println(ev111.getEventDate().toString());
+				System.out.println(date.compareTo(ev111.getEventDate()));
 				fail("Gertaera ez da amaitu oraindik");
 			}
 			
@@ -79,7 +87,7 @@ public class EmaitzakIpiniDAWTest {
 	public void test3() {
 		Team team1= new Team("Almeria");
 		Team team2= new Team("Athletic");
-		Event ev111=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,10,8), team1, team2);
+		Event ev111=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,9,8), team1, team2);
 		Sport sp1=new Sport("Futbol");
 		sp1.addEvent(ev111);
 		Question q1=ev111.addQuestion("Zeinek irabaziko du partidua?",1);
@@ -109,7 +117,7 @@ public class EmaitzakIpiniDAWTest {
 		Registered reg3 = new Registered("Gotzon", "123", 1111);
 		Team team1= new Team("Almeria");
 		Team team2= new Team("Athletic");
-		Event ev111=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,10,8), team1, team2);
+		Event ev111=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,9,8), team1, team2);
 		Sport sp1=new Sport("Futbol");
 		sp1.addEvent(ev111);
 		Question q1=ev111.addQuestion("Zeinek irabaziko du partidua?",1);
@@ -125,7 +133,7 @@ public class EmaitzakIpiniDAWTest {
 			
 			try {
 				sut.EmaitzakIpini(quote111);
-				assertEquals("galduta", ap1.getEgoera());
+				assertEquals("galduta", apA1.getEgoera());
 			} catch (EventNotFinished e) {
 				fail("Gertaera ez da amaitu oraindik");
 			}
@@ -143,7 +151,7 @@ public class EmaitzakIpiniDAWTest {
 		Registered reg3 = new Registered("Gotzon", "123", 1111);
 		Team team1= new Team("Almeria");
 		Team team2= new Team("Athletic");
-		Event ev111=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,10,8), team1, team2);
+		Event ev111=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,9,8), team1, team2);
 		Sport sp1=new Sport("Futbol");
 		sp1.addEvent(ev111);
 		Question q1=ev111.addQuestion("Zeinek irabaziko du partidua?",1);
@@ -151,6 +159,7 @@ public class EmaitzakIpiniDAWTest {
 		ApustuAnitza apA1 = new ApustuAnitza(reg3, 5.0);
 		Apustua ap1 = new Apustua(apA1, quote111);
 		apA1.addApustua(ap1);
+		//quote111.addApustua(ap1);
 		
 		try {
 			testDA.open();
@@ -159,7 +168,12 @@ public class EmaitzakIpiniDAWTest {
 			
 			try {
 				sut.EmaitzakIpini(quote111);
-				assertEquals("irabazita", ap1.getEgoera());
+				assertEquals("irabazita", apA1.getEgoera());
+				/*testDA.beginTransaction();
+				for(Apustua apu: quote111.getApustuak()) {
+					assertEquals("irabazita", apu.getApustuAnitza().getEgoera());
+				}
+				testDA.commitTransaction();*/
 			} catch (EventNotFinished e) {
 				fail("Gertaera ez da amaitu oraindik");
 			}
@@ -170,4 +184,5 @@ public class EmaitzakIpiniDAWTest {
 			testDA.close();
 		}
 	}
+
 }
