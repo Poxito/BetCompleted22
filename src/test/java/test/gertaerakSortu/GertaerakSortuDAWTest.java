@@ -35,7 +35,7 @@ public class GertaerakSortuDAWTest {
 	@Test//datu baseak ez du sport aurkituko eta false itzuliko du (sop==null).
 	public void test1() {
 		Team a = new Team("description");
-		Team b = new Team("description2");
+		Team b = new Team("description22");
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 			Date date=null;
 			try {
@@ -45,16 +45,16 @@ public class GertaerakSortuDAWTest {
 				e1.printStackTrace();
 			}
 			testDA.open();
-			Boolean emaitza= testDA.gertaerakSortu("description-description2", date, "pianoa");
+			Boolean emaitza= testDA.gertaerakSortu("description-description22", date, "pianoa");
 			testDA.close();
 		   }
 	
 	
 	@Test//Gertaera sortu egingo du description-description2 aurka.
 	public void test2() {
-		Team a = new Team("description");
-		Team b = new Team("description2");
-		try {
+		Team a = new Team("Atletico2");
+		Team b = new Team("Athletic3");
+		
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 			Date date=null;
 			try {
@@ -63,14 +63,14 @@ public class GertaerakSortuDAWTest {
 				e1.printStackTrace();
 			}
 			testDA.open();
-			Boolean emaitza= testDA.gertaerakSortu("description-description2", date, "Futbol");
+			Boolean emaitza= testDA.gertaerakSortu("Atletico2-Athletic3", date, "Futbol");
 			testDA.close();
 			event= new Event("description-description2",date,a,b);
-		   } finally {
-			     testDA.open();
-		         boolean b1=testDA.removeEvent(event);
-		         testDA.close();
-		        }
+		  
+			//     testDA.open();
+			  //  boolean b1=testDA.removeEvent(event);
+			  //  testDA.close();
+		        
 		   }
 	
 	@Test//Gertaera sortu egingo du non deskripzioa jadanik DBan dagoena, false itzultzeko.
