@@ -73,6 +73,10 @@ public class TestDataAccess {
 		db.getTransaction().commit();
 	}
 	
+	public void persist(Object object) {
+		db.persist(object);
+	}
+	
 	public int createEvent(Event e) {
 		TypedQuery<Event> query = db.createQuery("SELECT ev FROM Event ev WHERE ev.description=?1 AND ev.eventDate=?2",
 				Event.class);
