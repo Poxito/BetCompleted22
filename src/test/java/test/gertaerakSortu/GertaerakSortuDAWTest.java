@@ -32,6 +32,32 @@ public class GertaerakSortuDAWTest {
 	//private Event ev;
 	private Event event;
 	
+
+	@Test//Gertaera sortu egingo du non deskripzioa jadanik DBan dagoena, false itzultzeko.
+	public void test3() {
+		
+		Team a = new Team("Proba");
+		Team b = new Team("Proba2");
+			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
+			Date date=null;
+			try {
+				date = format.parse("17/11/2022");
+			} catch (ParseException e1) {
+				e1.printStackTrace();
+			}
+			Event event= new Event(42,"Proba-Proba2",date,a,b);
+		testDA.open();
+		testDA.createEvent(event);
+		testDA.close();
+		DataAccess.open(true);
+			Boolean emaitza= sut.gertaerakSortu("Proba-Proba2", date, "Futbol");//Badagoenez false.
+		sut.close();
+		testDA.open();
+        testDA.removeEvent(event);
+        testDA.close();
+		   
+	}
+	
 	@Test//datu baseak ez du sport aurkituko eta false itzuliko du (sop==null).
 	public void test1() {
 		Team a = new Team("description");
@@ -44,15 +70,23 @@ public class GertaerakSortuDAWTest {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
+			Event event= new Event(43,"description-description22",date,a,b);
 			testDA.open();
-			Boolean emaitza= testDA.gertaerakSortu("description-description22", date, "pianoa");
+			testDA.createEvent(event);
 			testDA.close();
+			DataAccess.open(true);
+			sut.gertaerakSortu("description-description22", date, "pianoa");
+			sut.close();
+			testDA.open();
+	        testDA.removeEvent(event);
+	        testDA.close();
 		   }
 	
 	
+	/*
 	@Test//Gertaera sortu egingo du description-description2 aurka.
 	public void test2() {
-		Team a = new Team("Atletico2");
+		Team a = new Team("Atletico3");
 		Team b = new Team("Athletic3");
 		
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
@@ -62,32 +96,20 @@ public class GertaerakSortuDAWTest {
 			} catch (ParseException e1) {
 				e1.printStackTrace();
 			}
+			
+			DataAccess.open(true);
+			Boolean emaitza= sut.gertaerakSortu("Atletico3-Athletic3", date, "Futbol");
+			sut.close();
+			
+			event= new Event("Atletico3-Athletic3",date,a,b);//id bat gehitu exekutatu egitean.
+			
 			testDA.open();
-			Boolean emaitza= testDA.gertaerakSortu("Atletico2-Athletic3", date, "Futbol");
-			testDA.close();
-			event= new Event("description-description2",date,a,b);
-		  
-			//     testDA.open();
-			  //  boolean b1=testDA.removeEvent(event);
-			  //  testDA.close();
-		        
-		   }
+	        testDA.removeEvent(event);
+	        testDA.close();
 	
-	@Test//Gertaera sortu egingo du non deskripzioa jadanik DBan dagoena, false itzultzeko.
-	public void test3() {
-		Team a = new Team("Atletico");
-		Team b = new Team("Athletic");
-			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
-			Date date=null;
-			try {
-				date = format.parse("17/11/2022");
-			} catch (ParseException e1) {
-				e1.printStackTrace();
-			}
-			testDA.open();
-			Boolean emaitza= testDA.gertaerakSortu("Atletico-Athletic", date, "Futbol");//Badagoenez false.
-			testDA.close();
-		   } 
+		   }*/
+	
+
 		   }
 
 
