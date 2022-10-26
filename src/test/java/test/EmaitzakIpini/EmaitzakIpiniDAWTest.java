@@ -114,18 +114,18 @@ public class EmaitzakIpiniDAWTest {
 	//Apustua galduta bezala markatu da
 	@Test
 	public void test4() {
-		Registered reg3 = new Registered("Gotzon", "123", 1111);
+		Registered reg3 = new Registered("markel", "123", 1111);
 		Team team1= new Team("Almeria");
 		Team team2= new Team("Athletic");
-		Event ev114=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,9,8), team1, team2);
+		Event ev114=new Event(1, "Chelsea-Bayern", UtilDate.newDate(2022,9,8), team1, team2);
 		Sport sp1=new Sport("Futbol");
 		sp1.addEvent(ev114);
-		Question q1=ev114.addQuestion("Zeinek irabaziko du partidua?",1);
-		Quote quote114 = q1.addQuote(1.3, "1", q1);
-		ApustuAnitza apA1 = new ApustuAnitza(reg3, 5.0);
-		Apustua ap1 = new Apustua(apA1, quote114);
-		apA1.addApustua(ap1);
-		
+		Question q114=ev114.addQuestion("Zeinek irabaziko du partidua?",1);
+		Quote quote114 = q114.addQuote(1.3, "1", q114);
+		ApustuAnitza apA114 = new ApustuAnitza(reg3, 5.0);
+		Apustua ap114 = new Apustua(apA114, quote114);
+		apA114.addApustua(ap114);
+		//quote114.addApustua(ap115);
 		try {
 			testDA.open();
 			testDA.createEvent(ev114);
@@ -133,7 +133,17 @@ public class EmaitzakIpiniDAWTest {
 			
 			try {
 				sut.EmaitzakIpini(quote114);
-				assertEquals("galduta", apA1.getEgoera());
+				assertEquals("galduta", apA114.getEgoera());
+				
+				/*
+				testDA.open();
+				testDA.beginTransaction();
+				for(Apustua apu: quote115.getApustuak()) {
+					assertEquals("galduta", apu.getApustuAnitza().getEgoera());
+				}
+				testDA.commitTransaction();
+				testDA.close();
+				 */
 			} catch (EventNotFinished e) {
 				fail("Gertaera ez da amaitu oraindik");
 			}
@@ -149,6 +159,7 @@ public class EmaitzakIpiniDAWTest {
 	@Test
 	public void test5() {
 		Registered reg35 = new Registered("Gotzon", "123", 1111);
+		Registered reg3 = new Registered("markel", "123", 1111);
 		Team team115= new Team("Chelsea");
 		Team team215= new Team("Bayern");
 		Event ev115=new Event(1, "Chelsea-Bayern", UtilDate.newDate(2022,9,8), team115, team215);
@@ -157,16 +168,16 @@ public class EmaitzakIpiniDAWTest {
 		ev115.setSport(sp115);
 		Question q115=ev115.addQuestion("Zeinek irabaziko du partidua?",1);
 		Quote quote115 = q115.addQuote(1.3, "2", q115);
-		ApustuAnitza apA115 = new ApustuAnitza(reg35, 5.0);
+		ApustuAnitza apA115 = new ApustuAnitza(reg3, 5.0);
 		//ApustuAnitza apA2 = new ApustuAnitza(reg3, 3.5);
 		Apustua ap115 = new Apustua(apA115, quote115);
 		//Apustua ap2 = new Apustua(apA2, quote115);
 		apA115.addApustua(ap115);
-		/*apA2.addApustua(ap2);
-		quote115.addApustua(ap1);
-		ap1.eguneratuApustuKant(sp1);
-		quote115.addApustua(ap2);
-		ap2.eguneratuApustuKant(sp1);*/
+		//apA2.addApustua(ap2);
+		quote115.addApustua(ap115);
+		//ap1.eguneratuApustuKant(sp1);
+		//quote115.addApustua(ap2);
+		//ap2.eguneratuApustuKant(sp1);*/
 		
 		try {
 			testDA.open();
@@ -185,13 +196,17 @@ public class EmaitzakIpiniDAWTest {
 			testDA.close();
 			
 			try {
+				System.out.println(quote115);
 				sut.EmaitzakIpini(quote115);
-				assertEquals("irabazita", apA115.getEgoera());
-				/*testDA.beginTransaction();
-				for(Apustua apu: quote111.getApustuak()) {
+				//assertEquals("irabazita", apA115.getEgoera());
+				testDA.open();
+				testDA.beginTransaction();
+				for(Apustua apu: quote115.getApustuak()) {
+					//assertEquals("irabazita", apu.getApustuAnitza().getEgoera());
 					assertEquals("irabazita", apu.getApustuAnitza().getEgoera());
 				}
-				testDA.commitTransaction();*/
+				testDA.commitTransaction();
+				testDA.close();
 			} catch (EventNotFinished e) {
 				fail("Gertaera ez da amaitu oraindik");
 			}

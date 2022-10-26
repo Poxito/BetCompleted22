@@ -1104,13 +1104,16 @@ public static void open(boolean initializeMode){
 	public void ApustuaIrabazi(ApustuAnitza apustua) {
 		ApustuAnitza apustuAnitza = db.find(ApustuAnitza.class, apustua.getApustuAnitzaNumber());
 		Registered reg = apustuAnitza.getUser();
+		System.out.println("reg = " + reg.getUsername());
 		Registered r = (Registered) db.find(User.class, reg.getUsername());
+		String proba = r.getUsername();
 		db.getTransaction().begin();
 		apustuAnitza.setEgoera("irabazita");
 		Double d=apustuAnitza.getBalioa();
 		for(Apustua ap: apustuAnitza.getApustuak()) {
 			d = d*ap.getKuota().getQuote();
 		}
+		System.out.println(proba);
 		r.updateDiruKontua(d);
 		r.setIrabazitakoa(r.getIrabazitakoa()+d);
 		r.setZenbat(r.getZenbat()+1);

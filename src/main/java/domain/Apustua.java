@@ -9,6 +9,7 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlID;
@@ -27,6 +28,7 @@ public class Apustua implements Serializable{
 	@XmlIDREF
 	private Quote kuota;
 	@XmlIDREF
+	@OneToOne(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
 	private ApustuAnitza apustuAnitza;
 	private String egoera;
 	
