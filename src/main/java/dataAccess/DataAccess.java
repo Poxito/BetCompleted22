@@ -1139,7 +1139,6 @@ public static void open(boolean initializeMode){
 			for(Apustua apu: quo.getApustuak()) {
 				
 				Boolean b=apu.galdutaMarkatu(quo);
-				//b beti da false
 				if(b) {
 					apu.getApustuAnitza().setEgoera("galduta");
 				}else {

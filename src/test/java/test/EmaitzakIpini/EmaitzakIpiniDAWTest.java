@@ -68,10 +68,10 @@ public class EmaitzakIpiniDAWTest {
 			try {
 				sut.EmaitzakIpini(quote112);
 			} catch (EventNotFinished e) {
-				Date date = new Date();
-				System.out.println(date.toString());
-				System.out.println(ev112.getEventDate().toString());
-				System.out.println(date.compareTo(ev112.getEventDate()));
+				//Date date = new Date();
+				//System.out.println(date.toString());
+				//System.out.println(ev112.getEventDate().toString());
+				//System.out.println(date.compareTo(ev112.getEventDate()));
 				fail("Gertaera ez da amaitu oraindik");
 			}
 			
@@ -111,7 +111,8 @@ public class EmaitzakIpiniDAWTest {
 		}
 	}
 	
-	//Apustua galduta bezala markatu da
+	
+	//Apustua irabazita bezala markatu da
 	@Test
 	public void test4() {
 		Registered reg3 = new Registered("markel", "123", 1111);
@@ -125,7 +126,7 @@ public class EmaitzakIpiniDAWTest {
 		ApustuAnitza apA114 = new ApustuAnitza(reg3, 5.0);
 		Apustua ap114 = new Apustua(apA114, quote114);
 		apA114.addApustua(ap114);
-		//quote114.addApustua(ap115);
+		quote114.addApustua(ap114);
 		try {
 			testDA.open();
 			testDA.createEvent(ev114);
@@ -143,7 +144,7 @@ public class EmaitzakIpiniDAWTest {
 				}
 				testDA.commitTransaction();
 				testDA.close();
-				 */
+				*/
 			} catch (EventNotFinished e) {
 				fail("Gertaera ez da amaitu oraindik");
 			}
@@ -155,7 +156,7 @@ public class EmaitzakIpiniDAWTest {
 		}
 	}
 	
-	//Apustua irabazita bezala markatu da
+	//Apustua galduta bezala markatu da
 	@Test
 	public void test5() {
 		Registered reg35 = new Registered("Gotzon", "123", 1111);
@@ -167,14 +168,18 @@ public class EmaitzakIpiniDAWTest {
 		sp115.addEvent(ev115);
 		ev115.setSport(sp115);
 		Question q115=ev115.addQuestion("Zeinek irabaziko du partidua?",1);
-		Quote quote115 = q115.addQuote(1.3, "2", q115);
+		Quote quote115 = q115.addQuote(1.3, "1", q115);
+		Quote quote116 = q115.addQuote(1.3, "2", q115);
 		ApustuAnitza apA115 = new ApustuAnitza(reg3, 5.0);
 		//ApustuAnitza apA2 = new ApustuAnitza(reg3, 3.5);
 		Apustua ap115 = new Apustua(apA115, quote115);
+		Apustua ap116 = new Apustua(apA115, quote116);
 		//Apustua ap2 = new Apustua(apA2, quote115);
 		apA115.addApustua(ap115);
+		apA115.addApustua(ap116);
 		//apA2.addApustua(ap2);
 		quote115.addApustua(ap115);
+		quote115.addApustua(ap116);
 		//ap1.eguneratuApustuKant(sp1);
 		//quote115.addApustua(ap2);
 		//ap2.eguneratuApustuKant(sp1);*/
@@ -201,7 +206,7 @@ public class EmaitzakIpiniDAWTest {
 				//assertEquals("irabazita", apA115.getEgoera());
 				testDA.open();
 				testDA.beginTransaction();
-				for(Apustua apu: quote115.getApustuak()) {
+				for(Apustua apu: quote116.getApustuak()) {
 					//assertEquals("irabazita", apu.getApustuAnitza().getEgoera());
 					assertEquals("irabazita", apu.getApustuAnitza().getEgoera());
 				}
@@ -214,6 +219,38 @@ public class EmaitzakIpiniDAWTest {
 		}finally {
 			testDA.open();
 			testDA.removeEvent(ev115);
+			testDA.close();
+		}
+	}
+	
+	@Test
+	public void test7() {
+		Team team1= new Team("Chelsea");
+		Team team2= new Team("Bayern");
+		Event ev117=new Event(1, "Chelsea-Bayern", UtilDate.newDate(2021,10,30), team1, team2);
+		Sport sp1=new Sport("Futbol");
+		sp1.addEvent(ev117);
+		Question q117=ev117.addQuestion("Zeinek irabaziko du partidua?",1);
+		Quote quote117 = q117.addQuote(1.3, "1", q117);
+		
+		try {
+			testDA.open();
+			testDA.createEvent(ev117);
+			testDA.close();
+			
+			try {
+				sut.EmaitzakIpini(quote117);
+			} catch (EventNotFinished e) {
+				//Date date = new Date();
+				//System.out.println(date.toString());
+				//System.out.println(ev112.getEventDate().toString());
+				//System.out.println(date.compareTo(ev112.getEventDate()));
+				fail("Gertaera ez da amaitu oraindik");
+			}
+			
+		}finally {
+			testDA.open();
+			testDA.removeEvent(ev117);
 			testDA.close();
 		}
 	}
