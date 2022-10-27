@@ -105,11 +105,11 @@ public void test2() {//data gabe false
 		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 		Date date=null;
 		try {
-			date = format.parse("");
+			//date = format.parse("");
 			testDA.open();
 			Boolean emaitza= testDA.gertaerakSortu("Barcelona-Madrid", date, "Futbol");
 			testDA.close();
-		} catch (ParseException e1) {
+		} catch (Exception e1) {
 			assertTrue(true);
 			e1.printStackTrace();
 		}
