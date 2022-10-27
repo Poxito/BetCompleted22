@@ -36,8 +36,8 @@ public class GertaerakSortuDAWTest {//Eguneratzen da
 	@Test//Gertaera sortu egingo du non deskripzioa jadanik DBan dagoena, false itzultzeko.
 	public void test3() {
 		
-		Team a = new Team("Proba");
-		Team b = new Team("Proba2");
+		Team a = new Team("Atletico");
+		Team b = new Team("Athletic");
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 			Date date=null;
 			try {
@@ -45,16 +45,16 @@ public class GertaerakSortuDAWTest {//Eguneratzen da
 			} catch (ParseException e1) {
 				e1.printStackTrace();
 			}
-			Event event= new Event(42,"Proba-Proba2",date,a,b);
-		testDA.open();
-		testDA.createEvent(event);
-		testDA.close();
+			//Event event= new Event("Proba-Proba2",date,a,b);
+		//testDA.open();
+		//testDA.createEvent(event);
+		//testDA.close();
 		DataAccess.open(true);
-			Boolean emaitza= sut.gertaerakSortu("Proba-Proba2", date, "Futbol");//Badagoenez false.
+			Boolean emaitza= sut.gertaerakSortu("Atletico-Athletic", date, "Futbol");//Badagoenez false.
 		sut.close();
-		testDA.open();
-        testDA.removeEvent(event);
-        testDA.close();
+		//testDA.open();
+        //testDA.removeEvent(event);
+        //testDA.close();
 		   
 	}
 	
@@ -70,7 +70,7 @@ public class GertaerakSortuDAWTest {//Eguneratzen da
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-			Event event= new Event(43,"description-description22",date,a,b);
+			Event event= new Event("description-description22",date,a,b);
 			testDA.open();
 			testDA.createEvent(event);
 			testDA.close();
@@ -78,12 +78,12 @@ public class GertaerakSortuDAWTest {//Eguneratzen da
 			sut.gertaerakSortu("description-description22", date, "pianoa");
 			sut.close();
 			testDA.open();
-	        testDA.removeEvent(event);
+	        testDA.removeEvent2(event);
 	        testDA.close();
 		   }
 	
 	
-	/*
+	
 	@Test//Gertaera sortu egingo du description-description2 aurka.
 	public void test2() {
 		Team a = new Team("Atletico3");
@@ -104,10 +104,10 @@ public class GertaerakSortuDAWTest {//Eguneratzen da
 			event= new Event("Atletico3-Athletic3",date,a,b);//id bat gehitu exekutatu egitean.
 			
 			testDA.open();
-	        testDA.removeEvent(event);
+	        testDA.removeEvent2(event);
 	        testDA.close();
 	
-		   }*/
+		   }
 	
 
 		   }

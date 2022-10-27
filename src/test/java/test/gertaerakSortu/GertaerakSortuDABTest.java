@@ -32,7 +32,7 @@ public class GertaerakSortuDABTest {
 	//private Event ev;
 	private Event event;
 	
-	@Test//sport null baldintza egin eta false itzuliko du.
+	@Test//sport DBan ez dago. baldintza egin eta false itzuliko du.
 	public void test6() {
 		Team a = new Team("description");
 		Team b = new Team("description2");
@@ -45,11 +45,11 @@ public class GertaerakSortuDABTest {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-			testDA.open();
-			Boolean emaitza= testDA.gertaerakSortu("description-description2", date, "pianoa");
-			testDA.close();
+			sut.open(true);
+			Boolean emaitza= sut.gertaerakSortu("description-description2", date, "pianoa");
+			sut.close();
 			assertEquals(emaitza,false);
-			 event= new Event("description-description2",date,a,b);
+			 //event= new Event("description-description2",date,a,b);
 		  
 		   }
 	
@@ -66,17 +66,16 @@ public class GertaerakSortuDABTest {
 				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
-			testDA.open();
-			Boolean emaitza= testDA.gertaerakSortu("description-description3", date, "Futbol");
-			testDA.close();
+			DataAccess.open(true);
+			Boolean emaitza= sut.gertaerakSortu("description-description3", date, "Futbol");
+			sut.close();
 
-		//	assertTrue(emaitza!=null);
 			assertEquals(emaitza,true);
 			 event= new Event("description-description3",date,a,b);
 		   } finally {
-			  // testDA.open();
-		       //  boolean b1=testDA.removeEvent(event);
-		        // testDA.close();
+			   testDA.open();
+		         boolean b1=testDA.removeEvent2(event);
+		         testDA.close();
 		        }
 		   }
 	@Test//Gertaera sortu egingo dugu non deskripzioa jadanik DBan dagoena false itzultzeko.
@@ -90,34 +89,40 @@ public class GertaerakSortuDABTest {
 			} catch (ParseException e1) {
 				e1.printStackTrace();
 			}
-			testDA.open();
-			Boolean emaitza= testDA.gertaerakSortu("Atletico-Athletic", date, "Futbol");
-			testDA.close();
+			DataAccess.open(true);
+			Boolean emaitza= sut.gertaerakSortu("Atletico-Athletic", date, "Futbol");
+			sut.close();
 
 			assertEquals(emaitza,false);
-		   }
+			 event= new Event("Atletico-Athletic",date,a,b);
+		   } 
 		   
-	
+	/*
 @Test
-public void test2() {//data gabe false
+public void test2() {//data null bada Eventua sortu egingo du date null balioarekin.
 	Team a = new Team("Barcelona");
-	Team b = new Team("Madrid");
+	Team b = new Team("Madrid2");
+	try {
 		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 		Date date=null;
-		try {
-			//date = format.parse("");
-			testDA.open();
-			Boolean emaitza= testDA.gertaerakSortu("Barcelona-Madrid", date, "Futbol");
-			testDA.close();
-		} catch (Exception e1) {
-			assertTrue(true);
-			e1.printStackTrace();
-		}
-	   }
-@Test//Deskripzioa gabe false
+		//date = format.parse("");
+		DataAccess.open(true);
+		Boolean emaitza= sut.gertaerakSortu("Barcelona-Madrid2", null, "Futbol");
+		sut.close();
+		
+	    event= new Event("Barcelona-Madrid2",null,a,b);
+	} finally {
+	     testDA.open();
+         boolean b1=testDA.removeEvent(event);
+         testDA.close();
+        }
+		
+	   }*/
+@Test//Deskripzioa gabe nullPointerException jaurtiko du, for bilaketan ez duelako inongo deskripziorik aurkituko.
 public void test5() {
 	Team a = new Team("Atletico");
 	Team b = new Team("Athletic");
+	try {
 		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 		Date date=null;
 		String s=null;
@@ -126,17 +131,21 @@ public void test5() {
 		} catch (ParseException e1) {
 			e1.printStackTrace();
 		}
-		testDA.open();
-		Boolean emaitza= testDA.gertaerakSortu(s, date, "Futbol");
-		testDA.close();
-		assertEquals(emaitza,false);
+		DataAccess.open(true);
+		Boolean emaitza= sut.gertaerakSortu(s, date, "Futbol");
+		sut.close();
+		fail();
+	}catch(NullPointerException e) {
+		assertTrue(true);
+		e.getMessage();}
 	   }
 	   
 	   
-@Test//String hutsa false
+@Test//Sport null bada Illegal argument exceptiona jaurti beharko da.
 public void test4() {
 	Team a = new Team("Atletico");
 	Team b = new Team("Athletic");
+	try {
 		SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 		Date date=null;
 		String s =null;
@@ -145,10 +154,15 @@ public void test4() {
 		} catch (ParseException e1) {
 			e1.printStackTrace();
 		}
-		testDA.open();
-		Boolean emaitza= testDA.gertaerakSortu("Barcelona-Madrid", date,s);
-		testDA.close();
-		assertEquals(emaitza,null);
+		DataAccess.open(true);
+		Boolean emaitza= sut.gertaerakSortu("Barcelona-Madrid", date,null);
+		sut.close();
+		fail();
+	}catch(IllegalArgumentException e) {
+		
+		assertTrue(true);
+		e.getMessage();
+	}
 	   }
 	   
 	   }

@@ -67,9 +67,13 @@ public class GertaerakSortuINTTest {
 			Mockito.doReturn(sport).when(mockedEvent).getSport();
 			Boolean bo=sut.gertaerakSortu("description-description23", date, "Futbol");
 			Mockito.verify(dataAccess, Mockito.times(1)).gertaerakSortu(Mockito.any(String.class),Mockito.any(Date.class), Mockito.any(String.class));
-
+		Event ev = new Event("description-description23",date,a,b);
+			dataAccess.open();
+			dataAccess.removeEvent2(ev);
+			dataAccess.close();
 			//assertTrue(bo==true);
 		   }
+	/*
 	@Test //badago
 	public void test7() {
 		Team a = new Team("Atletico");
@@ -107,6 +111,6 @@ public class GertaerakSortuINTTest {
 
 			assertEquals(bo,false);
 		   }
-		   
+		   */
 	
 }

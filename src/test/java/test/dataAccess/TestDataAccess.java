@@ -104,6 +104,35 @@ public class TestDataAccess {
 		} else 
 		return false;
     }
+	
+	
+	
+	public boolean removeEvent2(Event ev) {
+		Boolean emaitza=false;
+		System.out.println(">> DataAccessTest: removeEvent");
+		
+		TypedQuery<Event> query = db.createQuery("SELECT ev FROM Event ev WHERE ev.description=?1 AND ev.eventDate=?2",
+				Event.class);
+		query.setParameter(1, ev.getDescription());
+		query.setParameter(2, ev.getEventDate());
+		List<Event>eventu =query.getResultList();
+		Event e=eventu.get(0);
+		System.out.println(e.getDescription()+e.getEventNumber()+"hau da");
+		String des;
+		Date da;
+		if(e!=null) {
+			des=e.getDescription();
+			da=e.getEventDate();
+			if(des.equals(ev.getDescription()) && da.equals(ev.getEventDate())) {
+				db.getTransaction().begin();
+				db.remove(eventu.get(0));
+				db.getTransaction().commit();
+				emaitza= true;
+			}
+		}else {emaitza=false;}
+		return emaitza;
+	 
+    }
 		/*
 		public Event addEventWithQuestion(String desc, Date d, String question, float qty) {
 			System.out.println(">> DataAccessTest: addEvent");
