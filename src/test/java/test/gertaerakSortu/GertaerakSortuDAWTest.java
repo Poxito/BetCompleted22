@@ -21,7 +21,7 @@ import domain.Team;
 //import test.businessLogic.TestFacadeImplementation;
 import test.dataAccess.TestDataAccess;
 
-public class GertaerakSortuDAWTest {
+public class GertaerakSortuDAWTest {//Eguneratzen da
 
 	 //sut:system under test
 	 static DataAccess sut=new DataAccess();
