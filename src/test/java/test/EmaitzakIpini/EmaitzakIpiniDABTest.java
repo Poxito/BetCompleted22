@@ -2,6 +2,8 @@ package test.EmaitzakIpini;
 
 import static org.junit.Assert.*;
 
+import javax.persistence.RollbackException;
+
 import org.junit.Test;
 
 import configuration.UtilDate;
@@ -18,7 +20,6 @@ public class EmaitzakIpiniDABTest {
 	//additional operations needed to execute the test 
 	static TestDataAccess testDA=new TestDataAccess();
 	
-	//null balioa pasatzen dugu parametro bezala
 	@Test
 	public void test1() {
 			
@@ -30,7 +31,6 @@ public class EmaitzakIpiniDABTest {
 		}
 	}
 	
-	//Quote-a ez dago datu basean
 	@Test 
 	public void test2() {
 		Team team1= new Team("Almeria");
@@ -49,20 +49,19 @@ public class EmaitzakIpiniDABTest {
 		}
 	}
 	
-	//Gertaera ez da amaitu
 	@Test
 	public void test3() {
 		Team team1= new Team("Almeria");
 		Team team2= new Team("Athletic");
-		Event ev111=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,10,17), team1, team2);
+		Event ev131=new Event(1, "Almeria-Athletic", UtilDate.newDate(2022,10,17), team1, team2);
 		Sport sp1=new Sport("Futbol");
-		sp1.addEvent(ev111);
-		Question q1=ev111.addQuestion("Zeinek irabaziko du partidua?",1);
+		sp1.addEvent(ev131);
+		Question q1=ev131.addQuestion("Zeinek irabaziko du partidua?",1);
 		Quote quote111 = q1.addQuote(1.3, "1", q1);
 		
 		try {
 			testDA.open();
-			testDA.createEvent(ev111);
+			testDA.createEvent(ev131);
 			testDA.close();
 			
 			try {
@@ -70,16 +69,17 @@ public class EmaitzakIpiniDABTest {
 				fail("Gertaera ez da amaitu oraindik");
 			} catch (EventNotFinished e) {
 				
+			} catch (RollbackException e) {
+				
 			}
 			
 		}finally {
 			testDA.open();
-			testDA.removeEvent(ev111);
+			testDA.removeEvent(ev131);
 			testDA.close();
 		}
 	}
 
-	//Apustu galdua
 	@Test
 	public void test4() {
 		Registered reg333 = new Registered("Gotzon", "123", 1111);
@@ -113,7 +113,6 @@ public class EmaitzakIpiniDABTest {
 		}
 	}
 	
-	//Apustu irabazia
 	@Test
 	public void test5() {
 		Registered reg334 = new Registered("Gotzon", "123", 1111);

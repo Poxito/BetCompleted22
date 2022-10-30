@@ -27,7 +27,7 @@ public class EmaitzakIpiniDAWTest {
 	//additional operations needed to execute the test 
 	static TestDataAccess testDA = new TestDataAccess();
 		
-	//Sortutako Quote-a ez dago datubasean
+	
 	@Test 
 	public void test1() {
 		Team team1= new Team("Almeria");
@@ -49,7 +49,6 @@ public class EmaitzakIpiniDAWTest {
 		}
 	}
 	
-	//Gertaeraren data oraindik ez da igaro, beraz, amaitu gabe dago
 	@Test
 	public void test2() {
 		Team team1= new Team("Almeria");
@@ -68,10 +67,6 @@ public class EmaitzakIpiniDAWTest {
 			try {
 				sut.EmaitzakIpini(quote112);
 			} catch (EventNotFinished e) {
-				//Date date = new Date();
-				//System.out.println(date.toString());
-				//System.out.println(ev112.getEventDate().toString());
-				//System.out.println(date.compareTo(ev112.getEventDate()));
 				fail("Gertaera ez da amaitu oraindik");
 			}
 			
@@ -82,7 +77,6 @@ public class EmaitzakIpiniDAWTest {
 		}
 	}
 
-	//Quote-ak ez du apusturik beraz ez da for begiztatan sartuko
 	@Test
 	public void test3() {
 		Team team1= new Team("Almeria");
@@ -111,8 +105,6 @@ public class EmaitzakIpiniDAWTest {
 		}
 	}
 	
-	
-	//Apustua irabazita bezala markatu da
 	@Test
 	public void test4() {
 		Registered reg3 = new Registered("markel", "123", 1111);
@@ -135,16 +127,7 @@ public class EmaitzakIpiniDAWTest {
 			try {
 				sut.EmaitzakIpini(quote114);
 				assertEquals("galduta", apA114.getEgoera());
-				
-				/*
-				testDA.open();
-				testDA.beginTransaction();
-				for(Apustua apu: quote115.getApustuak()) {
-					assertEquals("galduta", apu.getApustuAnitza().getEgoera());
-				}
-				testDA.commitTransaction();
-				testDA.close();
-				*/
+		
 			} catch (EventNotFinished e) {
 				fail("Gertaera ez da amaitu oraindik");
 			}
@@ -156,7 +139,6 @@ public class EmaitzakIpiniDAWTest {
 		}
 	}
 	
-	//Apustua galduta bezala markatu da
 	@Test
 	public void test5() {
 		Registered reg35 = new Registered("Gotzon", "123", 1111);
@@ -171,33 +153,16 @@ public class EmaitzakIpiniDAWTest {
 		Quote quote115 = q115.addQuote(1.3, "1", q115);
 		Quote quote116 = q115.addQuote(1.3, "2", q115);
 		ApustuAnitza apA115 = new ApustuAnitza(reg3, 5.0);
-		//ApustuAnitza apA2 = new ApustuAnitza(reg3, 3.5);
 		Apustua ap115 = new Apustua(apA115, quote115);
 		Apustua ap116 = new Apustua(apA115, quote116);
-		//Apustua ap2 = new Apustua(apA2, quote115);
 		apA115.addApustua(ap115);
 		apA115.addApustua(ap116);
-		//apA2.addApustua(ap2);
 		quote115.addApustua(ap115);
 		quote115.addApustua(ap116);
-		//ap1.eguneratuApustuKant(sp1);
-		//quote115.addApustua(ap2);
-		//ap2.eguneratuApustuKant(sp1);*/
 		
 		try {
 			testDA.open();
 			testDA.createEvent(ev115);
-			/*testDA.beginTransaction();
-			testDA.persist(sp115);
-			testDA.persist(reg35);
-			testDA.persist(quote115);
-			testDA.persist(q115);
-			testDA.persist(apA115);
-			testDA.persist(ap115);
-			testDA.persist(team115);
-			testDA.persist(team215);
-			testDA.commitTransaction();*/
-			//quote115.addApustua(ap1);
 			testDA.close();
 			
 			try {
@@ -241,10 +206,6 @@ public class EmaitzakIpiniDAWTest {
 			try {
 				sut.EmaitzakIpini(quote117);
 			} catch (EventNotFinished e) {
-				//Date date = new Date();
-				//System.out.println(date.toString());
-				//System.out.println(ev112.getEventDate().toString());
-				//System.out.println(date.compareTo(ev112.getEventDate()));
 				fail("Gertaera ez da amaitu oraindik");
 			}
 			

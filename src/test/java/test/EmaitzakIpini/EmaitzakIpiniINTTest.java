@@ -41,9 +41,8 @@ public class EmaitzakIpiniINTTest {
 			
 			Mockito.verify(dataAccess, Mockito.times(1)).EmaitzakIpini(null);
 			
-			//fail();
 		} catch (Exception e) {
-			
+			fail("Parametro bezala sartu den Quote-a ez dago datubasean");
 		}
 	}
 
@@ -64,7 +63,6 @@ public class EmaitzakIpiniINTTest {
 			
 			Mockito.verify(dataAccess, Mockito.times(1)).EmaitzakIpini(quoteCaptor.capture());
 			
-			//fail();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -93,7 +91,6 @@ public class EmaitzakIpiniINTTest {
 			
 			Mockito.verify(dataAccess, Mockito.times(1)).EmaitzakIpini(quoteCaptor.capture());
 			
-			//fail("Gertaera ez da amaitu oraindik");
 		} catch (Exception e) {
 			
 		}finally {
@@ -103,7 +100,6 @@ public class EmaitzakIpiniINTTest {
 		}
 	}
 	
-	//Apustua galduta bezala markatu da
 	@Test
 	public void test4() {
 		Registered reg3 = new Registered("Gotzon", "123", 1111);
@@ -133,6 +129,8 @@ public class EmaitzakIpiniINTTest {
 				assertEquals("galduta", ap1.getEgoera());
 			} catch (EventNotFinished e) {
 				fail("Gertaera ez da amaitu oraindik");
+			} catch (NullPointerException e) {
+				fail("Ezin izan da egoera eguneratu");
 			}
 			
 		}finally {
@@ -142,7 +140,6 @@ public class EmaitzakIpiniINTTest {
 		}
 	}
 	
-	//Apustua galduta bezala markatu da
 	@Test
 	public void test5() {
 		Registered reg3 = new Registered("Gotzon", "123", 1111);
@@ -172,6 +169,8 @@ public class EmaitzakIpiniINTTest {
 				assertEquals("irabazita", ap1.getEgoera());
 			} catch (EventNotFinished e) {
 				fail("Gertaera ez da amaitu oraindik");
+			} catch (NullPointerException e) {
+				fail("Ezin izan da egoera eguneratu");
 			}
 			
 		}finally {
