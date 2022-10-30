@@ -1,5 +1,7 @@
 package test.gertaerakSortu;
 
+import static org.junit.Assert.assertTrue;
+
 //import static org.junit.Assert.assertEquals;
 //import static org.junit.Assert.assertTrue;
 //import static org.junit.Assert.fail;
@@ -45,13 +47,14 @@ public class GertaerakSortuDAWTest {//Eguneratzen da
 			} catch (ParseException e1) {
 				e1.printStackTrace();
 			}
-			//Event event= new Event("Proba-Proba2",date,a,b);
-		//testDA.open();
-		//testDA.createEvent(event);
-		//testDA.close();
+			Event event= new Event("Atletico-Athletic",date,a,b);
+		testDA.open();
+		testDA.createEvent(event);
+		testDA.close();
 		DataAccess.open(true);
 			Boolean emaitza= sut.gertaerakSortu("Atletico-Athletic", date, "Futbol");//Badagoenez false.
 		sut.close();
+		
 		//testDA.open();
         //testDA.removeEvent(event);
         //testDA.close();
@@ -75,18 +78,18 @@ public class GertaerakSortuDAWTest {//Eguneratzen da
 			testDA.createEvent(event);
 			testDA.close();
 			DataAccess.open(true);
-			sut.gertaerakSortu("description-description22", date, "pianoa");
+			sut.gertaerakSortu("description-description22", date, "escalada");
 			sut.close();
-			testDA.open();
-	        testDA.removeEvent2(event);
-	        testDA.close();
+			//testDA.open();
+	        //testDA.removeEvent2(event);
+	        //testDA.close();
 		   }
 	
 	
 	
 	@Test//Gertaera sortu egingo du description-description2 aurka.
 	public void test2() {
-		Team a = new Team("Atletico3");
+		Team a = new Team("Atletico33");
 		Team b = new Team("Athletic3");
 		
 			SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
@@ -98,15 +101,17 @@ public class GertaerakSortuDAWTest {//Eguneratzen da
 			}
 			
 			DataAccess.open(true);
-			Boolean emaitza= sut.gertaerakSortu("Atletico3-Athletic3", date, "Futbol");
+			Boolean emaitza= sut.gertaerakSortu("Atletico33-Athletic3", date, "Futbol");
+			
 			sut.close();
 			
-			event= new Event("Atletico3-Athletic3",date,a,b);//id bat gehitu exekutatu egitean.
+			event= new Event("Atletico33-Athletic3",date,a,b);//id bat gehitu exekutatu egitean.
 			
 			testDA.open();
+			//testDA.createEvent(event);
 	        testDA.removeEvent2(event);
 	        testDA.close();
-	
+	        
 		   }
 	
 
