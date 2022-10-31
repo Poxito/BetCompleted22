@@ -69,9 +69,9 @@ public class EmaitzakIpiniDABTest {
 				fail("Gertaera ez da amaitu oraindik");
 			} catch (EventNotFinished e) {
 				
-			} catch (RollbackException e) {
-				
-			}
+			} 
+			
+		}catch (RollbackException e) {
 			
 		}finally {
 			testDA.open();
