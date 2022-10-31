@@ -165,7 +165,7 @@ public class GertaerakSortuINTTest {
 			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 			Date data = null;
 
-			try {
+			try { 
 				data = sdf.parse("17/11/2022");
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
