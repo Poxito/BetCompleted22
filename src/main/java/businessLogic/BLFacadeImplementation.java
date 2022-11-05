@@ -17,6 +17,7 @@ import domain.Bidaltzekoa;
 import domain.Elkarrizketa;
 import domain.ElkarrizketaContainer;
 import domain.Event;
+import domain.ExtendedIterator;
 import domain.Message;
 import domain.MezuakContainer;
 import domain.Question;
@@ -96,6 +97,12 @@ public class BLFacadeImplementation  implements BLFacade {
 		return qry;
    };
 	
+   /*
+   public ExtendedIterator EventIterator() {
+	   return new EventIterator(getEvents(date));
+   }
+   */
+   
 	/**
 	 * This method invokes the data access to retrieve the events of a given date 
 	 * 

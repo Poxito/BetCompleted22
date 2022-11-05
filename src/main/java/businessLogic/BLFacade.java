@@ -14,6 +14,7 @@ import domain.Bidaltzekoa;
 import domain.Elkarrizketa;
 import domain.ElkarrizketaContainer;
 import domain.Event;
+import domain.ExtendedIterator;
 import domain.Message;
 import domain.MezuakContainer;
 //import domain.Booking;
@@ -143,4 +144,6 @@ public interface BLFacade  {
 	@WebMethod public Team findTeam(User u);
 	
 	@WebMethod public Sport findSport(Event q);
+	//Iterator gehitu.
+	//@WebMethod public ExtendedIterator EventIterator();
 }
