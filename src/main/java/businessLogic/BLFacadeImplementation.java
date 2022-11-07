@@ -17,6 +17,7 @@ import domain.Bidaltzekoa;
 import domain.Elkarrizketa;
 import domain.ElkarrizketaContainer;
 import domain.Event;
+import domain.EventIterator;
 import domain.ExtendedIterator;
 import domain.Message;
 import domain.MezuakContainer;
@@ -110,11 +111,11 @@ public class BLFacadeImplementation  implements BLFacade {
 	 * @return collection of events
 	 */
     @WebMethod	
-	public Vector<Event> getEvents(Date date)  {
+	public ExtendedIterator<Event> getEvents(Date date)  {
 		dbManager.open(false);
 		Vector<Event>  events=dbManager.getEvents(date);
 		dbManager.close();
-		return events;
+		return new EventIterator(events);
 	}
 
     

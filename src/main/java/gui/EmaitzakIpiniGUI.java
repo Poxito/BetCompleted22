@@ -27,6 +27,7 @@ import com.toedter.calendar.JCalendar;
 import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
+import domain.EventIterator;
 import domain.Question;
 import domain.Quote;
 import domain.User;
@@ -247,9 +248,9 @@ public class EmaitzakIpiniGUI extends JFrame{
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						EventIterator<domain.Event> events = (EventIterator<Event>) facade.getEvents(firstDay);
 						
-						if (events.isEmpty()) {
+						if (events.getEventList().isEmpty()) {
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
 									+ ": " + dateformat1.format(calendarAct.getTime()));
 							System.out.println("no events"); 
@@ -261,7 +262,7 @@ public class EmaitzakIpiniGUI extends JFrame{
 						jComboBoxEvents.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events) {
+						for (domain.Event ev : events.getEventList()) {
 							modelEvents.addElement(ev);
 						}
 						jComboBoxEvents.repaint();

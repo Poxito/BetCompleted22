@@ -2,7 +2,7 @@ package domain;
 
 import java.util.Vector;
 
-public class EventIterator implements ExtendedIterator {
+public class EventIterator<Event> implements ExtendedIterator<Event> {
 	private Vector<Event> lista;//Eventu lista
 	private int posizioa;
 	
@@ -12,6 +12,10 @@ public class EventIterator implements ExtendedIterator {
 		this.posizioa=0;
 	}
 
+	public Vector<Event> getEventList() {
+		return this.lista;
+	}
+	
 	@Override
 	public boolean hasNext() {
 		if(this.posizioa <= this.lista.size()-1) {
@@ -22,15 +26,17 @@ public class EventIterator implements ExtendedIterator {
 	}
 
 	@Override
-	public Object next() {
+	public Event next() {
+		Event e = lista.get(posizioa);
 		this.posizioa++;
-		return this.lista.get(this.posizioa-1);
+		return e;
 	}
 
 	@Override//?
-	public Object previous() {
-		this.posizioa--;
-		return this.lista.get(this.posizioa-1);
+	public Event previous() {
+		Event e = lista.get(posizioa);
+		posizioa--;
+		return e;
 	}
 
 	@Override

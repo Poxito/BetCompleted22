@@ -31,6 +31,8 @@ import com.toedter.calendar.JCalendar;
 import businessLogic.BLFacade;
 import configuration.UtilDate;
 import domain.Event;
+import domain.EventIterator;
+import domain.ExtendedIterator;
 import domain.Question;
 import domain.Quote;
 import domain.Transaction;
@@ -391,9 +393,9 @@ public class ApustuaEginGUI extends JFrame{
 					try {
 						BLFacade facade = MainGUI.getBusinessLogic();
 
-						Vector<domain.Event> events = facade.getEvents(firstDay);
+						EventIterator<Event> events = (EventIterator<Event>) facade.getEvents(firstDay);
 						
-						if (events.isEmpty()) {
+						if (events.getEventList().isEmpty()) {
 							jLabelListOfEvents.setText(ResourceBundle.getBundle("Etiquetas").getString("NoEvents")
 									+ ": " + dateformat1.format(calendarAct.getTime()));
 							System.out.println("no events"); 
@@ -405,12 +407,12 @@ public class ApustuaEginGUI extends JFrame{
 						jComboBoxEvents.removeAllItems();
 						System.out.println("Events " + events);
 
-						for (domain.Event ev : events) {
+						for (domain.Event ev : events.getEventList()) {
 							modelEvents.addElement(ev);
 						}
 						jComboBoxEvents.repaint();
 						
-						if (events.size() == 0) {
+						if (events.getEventList().size() == 0) {
 							btnApustuaGehitu.setEnabled(false);
 						}else {
 							
