@@ -54,6 +54,7 @@ public class RegisteredGUI extends JFrame {
 	private JButton btnNewButton;
 	private JButton btnRank;
 	private JButton btnDestacados;
+	private JButton btnEgindakoApustuak;
 	
 	/**
 	 * This is the default constructor
@@ -113,8 +114,8 @@ public class RegisteredGUI extends JFrame {
 			jContentPane.add(getBtnNewButton());
 			jContentPane.add(getBtnRank());
 			jContentPane.add(getBtnDestacados());
-			
-			JButton EgindakoApustuak = new JButton(ResourceBundle.getBundle("Etiquetas").getString("RegisteredGUI.btnNewButton_1.text")); //$NON-NLS-1$ //$NON-NLS-2$
+			jContentPane.add(getEgindakoApustuakButton());
+			/*JButton EgindakoApustuak = new JButton(ResourceBundle.getBundle("Etiquetas").getString("RegisteredGUI.btnNewButton_1.text")); //$NON-NLS-1$ //$NON-NLS-2$
 			EgindakoApustuak.addActionListener(new ActionListener() {
 				public void actionPerformed(ActionEvent e) {
 					JFrame a = new EgindakoApustuakGUI((Registered) user);
@@ -124,10 +125,31 @@ public class RegisteredGUI extends JFrame {
 				}
 			});
 			EgindakoApustuak.setBounds(63, 486, 181, 49);
-			jContentPane.add(EgindakoApustuak);
+			jContentPane.add(EgindakoApustuak);*/
 		}
 		return jContentPane;
 	}
+	
+
+	 	private JButton getEgindakoApustuakButton() {
+		if (btnEgindakoApustuak == null) {
+			btnEgindakoApustuak = new JButton();
+			btnEgindakoApustuak.setFont(new Font("Tahoma", Font.PLAIN, 16));
+			btnEgindakoApustuak.setForeground(Color.DARK_GRAY);
+			btnEgindakoApustuak.setBackground(Color.PINK);
+			btnEgindakoApustuak.setOpaque(true);
+			btnEgindakoApustuak.setBounds(63, 486, 181, 49);
+			btnEgindakoApustuak.setText(ResourceBundle.getBundle("Etiquetas").getString("EgindakoApustuak"));
+			btnEgindakoApustuak.addActionListener(new java.awt.event.ActionListener() {
+				public void actionPerformed(java.awt.event.ActionEvent e) {
+					JFrame a = new EgindakoApustuakGUI((Registered) user);
+					a.setVisible(true);
+				}
+			});
+		}
+		return btnEgindakoApustuak;
+	}
+	 
 	
 	/**
 	 * This method initializes boton2
