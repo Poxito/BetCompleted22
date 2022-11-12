@@ -1,4 +1,4 @@
-package gui;
+	package gui;
 
 import java.awt.Color;
 import java.awt.Font;
@@ -23,6 +23,7 @@ import javax.swing.SwingConstants;
 
 import businessLogic.BLFacade;
 import domain.Event;
+import domain.Registered;
 import domain.User;
 
 
@@ -112,6 +113,18 @@ public class RegisteredGUI extends JFrame {
 			jContentPane.add(getBtnNewButton());
 			jContentPane.add(getBtnRank());
 			jContentPane.add(getBtnDestacados());
+			
+			JButton EgindakoApustuak = new JButton(ResourceBundle.getBundle("Etiquetas").getString("RegisteredGUI.btnNewButton_1.text")); //$NON-NLS-1$ //$NON-NLS-2$
+			EgindakoApustuak.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent e) {
+					JFrame a = new EgindakoApustuakGUI((Registered) user);
+
+					a.setVisible(true);
+				
+				}
+			});
+			EgindakoApustuak.setBounds(63, 486, 181, 49);
+			jContentPane.add(EgindakoApustuak);
 		}
 		return jContentPane;
 	}
@@ -175,6 +188,7 @@ public class RegisteredGUI extends JFrame {
 		}
 		return jButtonDiruaSartu;
 	}
+	
 	private JButton getJButtonApustuaEgin() {
 		if (jButtonApustuaEgin == null) {
 			jButtonApustuaEgin = new JButton(); 
@@ -192,6 +206,7 @@ public class RegisteredGUI extends JFrame {
 		}
 		return jButtonApustuaEgin;
 	}
+	
 	private JButton getJButtonApustuaEzabatu() {
 		if (jButtonApustuaEzabatu == null) {
 			jButtonApustuaEzabatu = new JButton(ResourceBundle.getBundle("Etiquetas").getString("ApustuaEzabatu"));
@@ -208,6 +223,7 @@ public class RegisteredGUI extends JFrame {
 		}
 		return jButtonApustuaEzabatu;
 	}
+	
 	private JButton getJButtonMugimenduakBistaratu() {
 		if (jButtonMugimenduakBistaratu == null) {
 			jButtonMugimenduakBistaratu = new JButton(ResourceBundle.getBundle("Etiquetas").getString("MugimenduakBistaratu")); //$NON-NLS-1$ //$NON-NLS-2$
@@ -224,6 +240,7 @@ public class RegisteredGUI extends JFrame {
 		}
 		return jButtonMugimenduakBistaratu;
 	}
+	
 	private JButton getJButtonDesLogin() {
 		if (jButtonDesLogin == null) {
 			jButtonDesLogin = new JButton(ResourceBundle.getBundle("Etiquetas").getString("DesLogin")); //$NON-NLS-1$ //$NON-NLS-2$
@@ -259,6 +276,7 @@ public class RegisteredGUI extends JFrame {
 		}
 		return btnNewButton;
 	}
+	
 	private JButton getBtnRank() {
 		if (btnRank == null) {
 			btnRank = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Ranking")); //$NON-NLS-1$ //$NON-NLS-2$
@@ -275,6 +293,7 @@ public class RegisteredGUI extends JFrame {
 		}
 		return btnRank;
 	}
+	
 	private JButton getBtnDestacados() {
 		if (btnDestacados == null) {
 			btnDestacados = new JButton(ResourceBundle.getBundle("Etiquetas").getString("Destacados")); //$NON-NLS-1$ //$NON-NLS-2$

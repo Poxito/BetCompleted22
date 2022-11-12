@@ -1,5 +1,6 @@
 package domain;
 
+import java.util.ArrayList;
 import java.util.Vector;
 
 import javax.swing.table.AbstractTableModel;
@@ -7,9 +8,9 @@ import javax.swing.table.AbstractTableModel;
 public class UserAdapter extends AbstractTableModel{
 
 	private String[] columnNames = {"Event","Question","EventDate","Bet(€)"};
-	private Vector<Apustua> apustuak;
+	private Vector<ApustuAnitza> apustuak;
 	
-	public UserAdapter(Vector<Apustua> apustuak) {
+	public UserAdapter(Vector<ApustuAnitza> apustuak) {
 		this.apustuak = apustuak;
 	}
 	
@@ -32,15 +33,22 @@ public class UserAdapter extends AbstractTableModel{
 
 	@Override
 	public Object getValueAt(int rowIndex, int columnIndex) {
+		ArrayList<Apustua> apu = new ArrayList<Apustua>();
+		for(ApustuAnitza aa : apustuak) {
+			for(Apustua a : aa.getApustuak()) {
+				apu.add(a);
+			}
+			
+		}
 		
 		if (columnIndex == 0) {
-			return apustuak.get(rowIndex).getKuota().getQuestion().getEvent();
+			return apu.get(rowIndex).getKuota().getQuestion().getEvent().getDescription();
 		}else if (columnIndex == 1) {
-			return apustuak.get(rowIndex).getKuota().getQuestion();
+			return apu.get(rowIndex).getKuota().getQuestion().getQuestion();
 		}else if (columnIndex == 2) {
-			return apustuak.get(rowIndex).getKuota().getQuestion().getEvent().getEventDate();
+			return apu.get(rowIndex).getKuota().getQuestion().getEvent().getEventDate();
 		}
-		return apustuak.get(rowIndex).getKuota().getQuote();
+		return apu.get(rowIndex).getKuota().getQuote();
 	}
 
 	public String getColumnName(int col) {
@@ -48,7 +56,7 @@ public class UserAdapter extends AbstractTableModel{
 	}
 	
 	public Class getColumnClass(int col) {
-		if (col == 2) {
+		if (col == 3) {
 			return Double.class;
 		} else {
 			return String.class;
